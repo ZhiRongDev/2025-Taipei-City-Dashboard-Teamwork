@@ -1,0 +1,925 @@
+<template>
+  <div class="topic1">
+    <div class="card">
+      <h2>Topic 1: 區域人口與防災資源比分析</h2>
+      <p style="color: #94a3b8; line-height: 1.8;">
+        結合鄉鎮市區人口統計與防災資源（包含防空疏散設施、避難收容處所、AED 及消防/警政據點）進行比對，
+        針對數量、人均數量與地點離散度等指標，分析各區的防災資源密度。
+      </p>
+    </div>
+
+    <!-- Section Selector -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label>選擇視角：</label>
+        <select v-model="selectedSection">
+          <option value="taipei">台北市 (Taipei)</option>
+          <option value="newtaipei">新北市 (New Taipei)</option>
+          <option value="comparison">雙北比較 (Comparison)</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>資源類型：</label>
+        <select v-model="selectedResourceType">
+          <option value="AED">AED</option>
+          <option value="警消">警消單位</option>
+          <option value="避難收容所">避難收容所</option>
+          <option value="防空疏散地點">防空疏散地點</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Statistics Summary -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">資源總數</div>
+        <div class="stat-value">{{ currentStats.total }}<span class="stat-unit">處</span></div>
+      </div>
+      <div class="stat-card green">
+        <div class="stat-label">平均每區資源數</div>
+        <div class="stat-value">{{ currentStats.avgPerDistrict }}<span class="stat-unit">處</span></div>
+      </div>
+      <div class="stat-card yellow">
+        <div class="stat-label">平均每處服務人數</div>
+        <div class="stat-value">{{ currentStats.avgPeoplePerResource }}<span class="stat-unit">人</span></div>
+      </div>
+      <div class="stat-card red">
+        <div class="stat-label">最高配置區</div>
+        <div class="stat-value" style="font-size: 1.3rem;">{{ currentStats.topDistrict }}</div>
+      </div>
+    </div>
+
+    <!-- Taipei Section -->
+    <div v-if="selectedSection === 'taipei'" class="section-content">
+      <h3 class="section-title">台北市 {{ selectedResourceType }} 分析</h3>
+
+      <!-- Map Visualization -->
+      <div class="card">
+        <h3>地圖視覺化 - 各行政區 {{ selectedResourceType }} 分布</h3>
+        <div ref="taipeiMapContainer" class="map-container"></div>
+      </div>
+
+      <!-- Charts -->
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>各行政區 {{ selectedResourceType }} 數量</h3>
+          <apexchart
+            type="bar"
+            height="400"
+            :options="taipeiCountChartOptions"
+            :series="taipeiCountSeries"
+          ></apexchart>
+        </div>
+
+        <div class="card">
+          <h3>人均資源比 (人口數/資源數)</h3>
+          <apexchart
+            type="bar"
+            height="400"
+            :options="taipeiPopRatioChartOptions"
+            :series="taipeiPopRatioSeries"
+          ></apexchart>
+        </div>
+      </div>
+
+      <!-- Spatial Metrics -->
+      <div class="card">
+        <h3>離散度分析指標</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #60a5fa;">平均兩兩距離 (Dispersion):</strong> 計算各設施間的歐氏距離平均，反映地理上分散程度。
+          <strong style="color: #34d399;">空間熵 (Spatial Entropy):</strong> 透過網格分佈與資訊熵公式，分析設施分布的隨機性與集中性。
+        </p>
+        <div class="grid grid-2">
+          <apexchart
+            type="bar"
+            height="350"
+            :options="taipeiDispersionChartOptions"
+            :series="taipeiDispersionSeries"
+          ></apexchart>
+          <apexchart
+            type="bar"
+            height="350"
+            :options="taipeiEntropyChartOptions"
+            :series="taipeiEntropySeries"
+          ></apexchart>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Taipei Section -->
+    <div v-if="selectedSection === 'newtaipei'" class="section-content">
+      <h3 class="section-title">新北市 {{ selectedResourceType }} 分析</h3>
+
+      <!-- Map Visualization -->
+      <div class="card">
+        <h3>地圖視覺化 - 各行政區 {{ selectedResourceType }} 分布</h3>
+        <div ref="newtaipeiMapContainer" class="map-container"></div>
+      </div>
+
+      <!-- Charts -->
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>各行政區 {{ selectedResourceType }} 數量</h3>
+          <apexchart
+            type="bar"
+            height="400"
+            :options="newtaipeiCountChartOptions"
+            :series="newtaipeiCountSeries"
+          ></apexchart>
+        </div>
+
+        <div class="card">
+          <h3>人均資源比 (人口數/資源數)</h3>
+          <apexchart
+            type="bar"
+            height="400"
+            :options="newtaipeiPopRatioChartOptions"
+            :series="newtaipeiPopRatioSeries"
+          ></apexchart>
+        </div>
+      </div>
+
+      <!-- Spatial Metrics -->
+      <div class="card">
+        <h3>離散度分析指標</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #60a5fa;">平均兩兩距離 (Dispersion):</strong> 計算各設施間的歐氏距離平均，反映地理上分散程度。
+          <strong style="color: #34d399;">空間熵 (Spatial Entropy):</strong> 透過網格分佈與資訊熵公式，分析設施分布的隨機性與集中性。
+        </p>
+        <div class="grid grid-2">
+          <apexchart
+            type="bar"
+            height="350"
+            :options="newtaipeiDispersionChartOptions"
+            :series="newtaipeiDispersionSeries"
+          ></apexchart>
+          <apexchart
+            type="bar"
+            height="350"
+            :options="newtaipeiEntropyChartOptions"
+            :series="newtaipeiEntropySeries"
+          ></apexchart>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comparison Section -->
+    <div v-if="selectedSection === 'comparison'" class="section-content">
+      <h3 class="section-title">雙北 {{ selectedResourceType }} 比較</h3>
+
+      <!-- City-level Comparison -->
+      <div class="card">
+        <h3>縣市層級比較</h3>
+        <div class="grid grid-2">
+          <apexchart
+            type="bar"
+            height="300"
+            :options="cityComparisonCountOptions"
+            :series="cityComparisonCountSeries"
+          ></apexchart>
+          <apexchart
+            type="bar"
+            height="300"
+            :options="cityComparisonMetricsOptions"
+            :series="cityComparisonMetricsSeries"
+          ></apexchart>
+        </div>
+      </div>
+
+      <!-- Side-by-side District Comparison -->
+      <div class="card">
+        <h3>行政區橫向比較 - 資源數量排名</h3>
+        <apexchart
+          type="bar"
+          height="500"
+          :options="districtComparisonOptions"
+          :series="districtComparisonSeries"
+        ></apexchart>
+      </div>
+
+      <!-- Spatial Metrics Comparison -->
+      <div class="card">
+        <h3>離散度指標比較</h3>
+        <div class="grid grid-2">
+          <apexchart
+            type="radar"
+            height="400"
+            :options="spatialComparisonOptions"
+            :series="spatialComparisonSeries"
+          ></apexchart>
+          <div class="comparison-summary">
+            <h4 style="color: #60a5fa; margin-bottom: 16px;">分析摘要</h4>
+            <div v-html="comparisonSummary" style="color: #cbd5e1; line-height: 1.8;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import { ref, computed, onMounted, watch } from 'vue'
+import mapboxgl from 'mapbox-gl'
+import { loadCSV, loadGeoJSON } from '../utils/csvLoader'
+
+export default {
+  name: 'Topic1',
+  setup() {
+    const selectedSection = ref('taipei')
+    const selectedResourceType = ref('AED')
+
+    const taipeiMapContainer = ref(null)
+    const newtaipeiMapContainer = ref(null)
+
+    const taipeiData = ref({
+      AED: [],
+      '警消': [],
+      '避難收容所': [],
+      '防空疏散地點': []
+    })
+
+    const newtaipeiData = ref({
+      AED: [],
+      '警消': [],
+      '避難收容所': [],
+      '防空疏散地點': []
+    })
+
+    const taipeiCityData = ref({})
+    const newtaipeiCityData = ref({})
+
+    // Current Statistics
+    const currentStats = computed(() => {
+      let data = []
+      if (selectedSection.value === 'taipei') {
+        data = taipeiData.value[selectedResourceType.value] || []
+      } else if (selectedSection.value === 'newtaipei') {
+        data = newtaipeiData.value[selectedResourceType.value] || []
+      } else {
+        data = [...(taipeiData.value[selectedResourceType.value] || []), ...(newtaipeiData.value[selectedResourceType.value] || [])]
+      }
+
+      const total = data.reduce((sum, row) => sum + (row.Count || 0), 0)
+      const totalPop = data.reduce((sum, row) => sum + (row.population || 0), 0)
+      const avgPerDistrict = data.length > 0 ? Math.round(total / data.length) : 0
+      const avgPeoplePerResource = total > 0 ? Math.round(totalPop / total) : 0
+      const topDistrictData = data.reduce((max, row) =>
+        (row.Count || 0) > (max.Count || 0) ? row : max, data[0] || {})
+      const topDistrict = topDistrictData ? `${topDistrictData.Town || 'N/A'}` : 'N/A'
+
+      return { total, avgPerDistrict, avgPeoplePerResource, topDistrict }
+    })
+
+    // Taipei Charts
+    const taipeiCountSeries = computed(() => {
+      const data = taipeiData.value[selectedResourceType.value] || []
+      return [{
+        name: '資源數量',
+        data: data.map(row => row.Count || 0)
+      }]
+    })
+
+    const taipeiCountChartOptions = computed(() => ({
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      xaxis: {
+        categories: (taipeiData.value[selectedResourceType.value] || []).map(row => row.Town),
+        labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#60a5fa'],
+      dataLabels: { enabled: false },
+      plotOptions: { bar: { borderRadius: 4 } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }))
+
+    const taipeiPopRatioSeries = computed(() => {
+      const data = taipeiData.value[selectedResourceType.value] || []
+      return [{
+        name: '人口/資源數',
+        data: data.map(row => row.population_per_count || 0)
+      }]
+    })
+
+    const taipeiPopRatioChartOptions = computed(() => ({
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      xaxis: {
+        categories: (taipeiData.value[selectedResourceType.value] || []).map(row => row.Town),
+        labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#34d399'],
+      dataLabels: { enabled: false },
+      plotOptions: { bar: { borderRadius: 4 } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }))
+
+    const taipeiDispersionSeries = computed(() => {
+      const data = taipeiData.value[selectedResourceType.value] || []
+      return [{
+        name: '平均兩兩距離',
+        data: data.map(row => (row.Dispersion || 0) * 1000) // Scale for visibility
+      }]
+    })
+
+    const taipeiDispersionChartOptions = computed(() => ({
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      title: { text: '平均兩兩距離 (Dispersion)', style: { color: '#94a3b8' } },
+      xaxis: {
+        categories: (taipeiData.value[selectedResourceType.value] || []).map(row => row.Town),
+        labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#60a5fa'],
+      dataLabels: { enabled: false },
+      plotOptions: { bar: { borderRadius: 4 } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }))
+
+    const taipeiEntropySeries = computed(() => {
+      const data = taipeiData.value[selectedResourceType.value] || []
+      return [{
+        name: '空間熵',
+        data: data.map(row => row.SpatialEntropy || 0)
+      }]
+    })
+
+    const taipeiEntropyChartOptions = computed(() => ({
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      title: { text: '空間熵 (Spatial Entropy)', style: { color: '#94a3b8' } },
+      xaxis: {
+        categories: (taipeiData.value[selectedResourceType.value] || []).map(row => row.Town),
+        labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#34d399'],
+      dataLabels: { enabled: false },
+      plotOptions: { bar: { borderRadius: 4 } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }))
+
+    // New Taipei Charts (similar structure)
+    const newtaipeiCountSeries = computed(() => {
+      const data = newtaipeiData.value[selectedResourceType.value] || []
+      return [{
+        name: '資源數量',
+        data: data.map(row => row.Count || 0)
+      }]
+    })
+
+    const newtaipeiCountChartOptions = computed(() => ({
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      xaxis: {
+        categories: (newtaipeiData.value[selectedResourceType.value] || []).map(row => row.Town),
+        labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#60a5fa'],
+      dataLabels: { enabled: false },
+      plotOptions: { bar: { borderRadius: 4 } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }))
+
+    const newtaipeiPopRatioSeries = computed(() => {
+      const data = newtaipeiData.value[selectedResourceType.value] || []
+      return [{
+        name: '人口/資源數',
+        data: data.map(row => row.population_per_count || 0)
+      }]
+    })
+
+    const newtaipeiPopRatioChartOptions = computed(() => ({
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      xaxis: {
+        categories: (newtaipeiData.value[selectedResourceType.value] || []).map(row => row.Town),
+        labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#34d399'],
+      dataLabels: { enabled: false },
+      plotOptions: { bar: { borderRadius: 4 } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }))
+
+    const newtaipeiDispersionSeries = computed(() => {
+      const data = newtaipeiData.value[selectedResourceType.value] || []
+      return [{
+        name: '平均兩兩距離',
+        data: data.map(row => (row.Dispersion || 0) * 1000)
+      }]
+    })
+
+    const newtaipeiDispersionChartOptions = computed(() => ({
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      title: { text: '平均兩兩距離 (Dispersion)', style: { color: '#94a3b8' } },
+      xaxis: {
+        categories: (newtaipeiData.value[selectedResourceType.value] || []).map(row => row.Town),
+        labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#60a5fa'],
+      dataLabels: { enabled: false },
+      plotOptions: { bar: { borderRadius: 4 } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }))
+
+    const newtaipeiEntropySeries = computed(() => {
+      const data = newtaipeiData.value[selectedResourceType.value] || []
+      return [{
+        name: '空間熵',
+        data: data.map(row => row.SpatialEntropy || 0)
+      }]
+    })
+
+    const newtaipeiEntropyChartOptions = computed(() => ({
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      title: { text: '空間熵 (Spatial Entropy)', style: { color: '#94a3b8' } },
+      xaxis: {
+        categories: (newtaipeiData.value[selectedResourceType.value] || []).map(row => row.Town),
+        labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#34d399'],
+      dataLabels: { enabled: false },
+      plotOptions: { bar: { borderRadius: 4 } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }))
+
+    // Comparison Charts
+    const cityComparisonCountSeries = computed(() => {
+      const taipeiCity = taipeiCityData.value[selectedResourceType.value] || {}
+      const newtaipeiCity = newtaipeiCityData.value[selectedResourceType.value] || {}
+
+      return [{
+        name: '總資源數',
+        data: [taipeiCity.Count || 0, newtaipeiCity.Count || 0]
+      }]
+    })
+
+    const cityComparisonCountOptions = {
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      title: { text: '總資源數比較', style: { color: '#94a3b8' } },
+      xaxis: {
+        categories: ['台北市', '新北市'],
+        labels: { style: { colors: '#94a3b8' } }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#60a5fa'],
+      plotOptions: { bar: { borderRadius: 4, columnWidth: '50%' } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }
+
+    const cityComparisonMetricsSeries = computed(() => {
+      const taipeiCity = taipeiCityData.value[selectedResourceType.value] || {}
+      const newtaipeiCity = newtaipeiCityData.value[selectedResourceType.value] || {}
+
+      return [
+        {
+          name: '平均兩兩距離',
+          data: [(taipeiCity.Dispersion || 0) * 1000, (newtaipeiCity.Dispersion || 0) * 1000]
+        },
+        {
+          name: '空間熵',
+          data: [taipeiCity.SpatialEntropy || 0, newtaipeiCity.SpatialEntropy || 0]
+        }
+      ]
+    })
+
+    const cityComparisonMetricsOptions = {
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      title: { text: '空間指標比較', style: { color: '#94a3b8' } },
+      xaxis: {
+        categories: ['台北市', '新北市'],
+        labels: { style: { colors: '#94a3b8' } }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#60a5fa', '#34d399'],
+      plotOptions: { bar: { borderRadius: 4, columnWidth: '70%' } },
+      legend: { labels: { colors: '#94a3b8' } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }
+
+    const districtComparisonSeries = computed(() => {
+      const taipeiDistricts = taipeiData.value[selectedResourceType.value] || []
+      const newtaipeiDistricts = newtaipeiData.value[selectedResourceType.value] || []
+
+      const allDistricts = [
+        ...taipeiDistricts.map(d => ({ ...d, city: '台北市' })),
+        ...newtaipeiDistricts.map(d => ({ ...d, city: '新北市' }))
+      ].sort((a, b) => (b.Count || 0) - (a.Count || 0)).slice(0, 20)
+
+      return [{
+        name: '資源數量',
+        data: allDistricts.map(d => d.Count || 0)
+      }]
+    })
+
+    const districtComparisonOptions = computed(() => {
+      const taipeiDistricts = taipeiData.value[selectedResourceType.value] || []
+      const newtaipeiDistricts = newtaipeiData.value[selectedResourceType.value] || []
+
+      const allDistricts = [
+        ...taipeiDistricts.map(d => ({ ...d, city: '台北市' })),
+        ...newtaipeiDistricts.map(d => ({ ...d, city: '新北市' }))
+      ].sort((a, b) => (b.Count || 0) - (a.Count || 0)).slice(0, 20)
+
+      return {
+        chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+        theme: { mode: 'dark' },
+        xaxis: {
+          categories: allDistricts.map(d => `${d.city} ${d.Town}`),
+          labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+        },
+        yaxis: { labels: { style: { colors: '#94a3b8' } } },
+        colors: ['#fbbf24'],
+        dataLabels: { enabled: false },
+        plotOptions: { bar: { borderRadius: 4 } },
+        grid: { borderColor: '#334155', strokeDashArray: 3 }
+      }
+    })
+
+    const spatialComparisonSeries = computed(() => {
+      const taipeiCity = taipeiCityData.value[selectedResourceType.value] || {}
+      const newtaipeiCity = newtaipeiCityData.value[selectedResourceType.value] || {}
+
+      return [
+        {
+          name: '台北市',
+          data: [
+            (taipeiCity.Dispersion || 0) * 1000,
+            taipeiCity.SpatialEntropy || 0,
+            taipeiCity.population_per_count || 0,
+            taipeiCity.households_per_count || 0
+          ]
+        },
+        {
+          name: '新北市',
+          data: [
+            (newtaipeiCity.Dispersion || 0) * 1000,
+            newtaipeiCity.SpatialEntropy || 0,
+            newtaipeiCity.population_per_count || 0,
+            newtaipeiCity.households_per_count || 0
+          ]
+        }
+      ]
+    })
+
+    const spatialComparisonOptions = {
+      chart: { type: 'radar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      xaxis: {
+        categories: ['平均兩兩距離', '空間熵', '人口/資源', '戶數/資源']
+      },
+      yaxis: { show: false },
+      colors: ['#60a5fa', '#34d399'],
+      stroke: { width: 2 },
+      fill: { opacity: 0.2 },
+      markers: { size: 4 },
+      legend: { labels: { colors: '#94a3b8' } }
+    }
+
+    const comparisonSummary = computed(() => {
+      const taipeiCity = taipeiCityData.value[selectedResourceType.value] || {}
+      const newtaipeiCity = newtaipeiCityData.value[selectedResourceType.value] || {}
+
+      return `
+        <p><strong>台北市:</strong></p>
+        <ul style="margin-left: 20px; margin-bottom: 12px;">
+          <li>總資源數: ${taipeiCity.Count || 0}</li>
+          <li>平均每處服務人數: ${Math.round(taipeiCity.population_per_count || 0)}</li>
+          <li>離散度: ${((taipeiCity.Dispersion || 0) * 1000).toFixed(2)}</li>
+        </ul>
+        <p><strong>新北市:</strong></p>
+        <ul style="margin-left: 20px;">
+          <li>總資源數: ${newtaipeiCity.Count || 0}</li>
+          <li>平均每處服務人數: ${Math.round(newtaipeiCity.population_per_count || 0)}</li>
+          <li>離散度: ${((newtaipeiCity.Dispersion || 0) * 1000).toFixed(2)}</li>
+        </ul>
+      `
+    })
+
+    // Map initialization
+    const initTaipeiMap = async () => {
+      if (!taipeiMapContainer.value) return
+
+      mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
+
+      const map = new mapboxgl.Map({
+        container: taipeiMapContainer.value,
+        style: 'mapbox://styles/mapbox/dark-v11',
+        center: [121.5654, 25.0330],
+        zoom: 10.5
+      })
+
+      map.on('load', async () => {
+        try {
+          const geoData = await loadGeoJSON('/source/clean/台北/town_taipei.geojson')
+          const resourceData = taipeiData.value[selectedResourceType.value] || []
+
+          const resourceMap = {}
+          resourceData.forEach(row => {
+            resourceMap[row.Town] = {
+              count: row.Count || 0,
+              popRatio: row.population_per_count || 0
+            }
+          })
+
+          geoData.features.forEach(feature => {
+            const town = feature.properties.TOWN
+            const data = resourceMap[town] || { count: 0, popRatio: 0 }
+            feature.properties.resource_count = data.count
+            feature.properties.pop_ratio = data.popRatio
+          })
+
+          map.addSource('taipei-districts', {
+            type: 'geojson',
+            data: geoData
+          })
+
+          map.addLayer({
+            id: 'taipei-fill',
+            type: 'fill',
+            source: 'taipei-districts',
+            paint: {
+              'fill-color': [
+                'interpolate',
+                ['linear'],
+                ['get', 'resource_count'],
+                0, '#1e293b',
+                50, '#3b82f6',
+                150, '#34d399',
+                300, '#fbbf24'
+              ],
+              'fill-opacity': 0.7
+            }
+          })
+
+          map.addLayer({
+            id: 'taipei-outline',
+            type: 'line',
+            source: 'taipei-districts',
+            paint: {
+              'line-color': '#475569',
+              'line-width': 1
+            }
+          })
+
+          map.on('click', 'taipei-fill', (e) => {
+            const props = e.features[0].properties
+            new mapboxgl.Popup()
+              .setLngLat(e.lngLat)
+              .setHTML(`
+                <div style="color: #1e293b; padding: 5px;">
+                  <strong>${props.TOWN}</strong><br>
+                  資源數量: ${props.resource_count || 0}<br>
+                  人均比: ${Math.round(props.pop_ratio || 0)}
+                </div>
+              `)
+              .addTo(map)
+          })
+
+          map.on('mouseenter', 'taipei-fill', () => {
+            map.getCanvas().style.cursor = 'pointer'
+          })
+
+          map.on('mouseleave', 'taipei-fill', () => {
+            map.getCanvas().style.cursor = ''
+          })
+
+        } catch (error) {
+          console.error('Error loading Taipei map:', error)
+        }
+      })
+    }
+
+    const initNewtaipeiMap = async () => {
+      if (!newtaipeiMapContainer.value) return
+
+      mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
+
+      const map = new mapboxgl.Map({
+        container: newtaipeiMapContainer.value,
+        style: 'mapbox://styles/mapbox/dark-v11',
+        center: [121.4491, 25.0120],
+        zoom: 9.5
+      })
+
+      map.on('load', async () => {
+        try {
+          const geoData = await loadGeoJSON('/source/clean/新北/town_newtaipei.geojson')
+          const resourceData = newtaipeiData.value[selectedResourceType.value] || []
+
+          const resourceMap = {}
+          resourceData.forEach(row => {
+            resourceMap[row.Town] = {
+              count: row.Count || 0,
+              popRatio: row.population_per_count || 0
+            }
+          })
+
+          geoData.features.forEach(feature => {
+            const town = feature.properties.TOWN
+            const data = resourceMap[town] || { count: 0, popRatio: 0 }
+            feature.properties.resource_count = data.count
+            feature.properties.pop_ratio = data.popRatio
+          })
+
+          map.addSource('newtaipei-districts', {
+            type: 'geojson',
+            data: geoData
+          })
+
+          map.addLayer({
+            id: 'newtaipei-fill',
+            type: 'fill',
+            source: 'newtaipei-districts',
+            paint: {
+              'fill-color': [
+                'interpolate',
+                ['linear'],
+                ['get', 'resource_count'],
+                0, '#1e293b',
+                50, '#3b82f6',
+                150, '#34d399',
+                300, '#fbbf24'
+              ],
+              'fill-opacity': 0.7
+            }
+          })
+
+          map.addLayer({
+            id: 'newtaipei-outline',
+            type: 'line',
+            source: 'newtaipei-districts',
+            paint: {
+              'line-color': '#475569',
+              'line-width': 1
+            }
+          })
+
+          map.on('click', 'newtaipei-fill', (e) => {
+            const props = e.features[0].properties
+            new mapboxgl.Popup()
+              .setLngLat(e.lngLat)
+              .setHTML(`
+                <div style="color: #1e293b; padding: 5px;">
+                  <strong>${props.TOWN}</strong><br>
+                  資源數量: ${props.resource_count || 0}<br>
+                  人均比: ${Math.round(props.pop_ratio || 0)}
+                </div>
+              `)
+              .addTo(map)
+          })
+
+          map.on('mouseenter', 'newtaipei-fill', () => {
+            map.getCanvas().style.cursor = 'pointer'
+          })
+
+          map.on('mouseleave', 'newtaipei-fill', () => {
+            map.getCanvas().style.cursor = ''
+          })
+
+        } catch (error) {
+          console.error('Error loading New Taipei map:', error)
+        }
+      })
+    }
+
+    // Load data
+    const loadData = async () => {
+      try {
+        // Taipei data
+        taipeiData.value.AED = await loadCSV('/source/topic/taipei/topic1-1__Town__regional_discrete_count(AED).csv')
+        taipeiData.value['警消'] = await loadCSV('/source/topic/taipei/topic1-1__Town__regional_discrete_count(警消).csv')
+        taipeiData.value['避難收容所'] = await loadCSV('/source/topic/taipei/topic1-1__Town__regional_discrete_count(避難收容所).csv')
+        taipeiData.value['防空疏散地點'] = await loadCSV('/source/topic/taipei/topic1-1__Town__regional_discrete_count(防空疏散地點).csv')
+
+        // New Taipei data
+        newtaipeiData.value.AED = await loadCSV('/source/topic/newtaipeis/topic1-1__Town__regional_discrete_count(AED).csv')
+        newtaipeiData.value['警消'] = await loadCSV('/source/topic/newtaipeis/topic1-1__Town__regional_discrete_count(警消).csv')
+        newtaipeiData.value['避難收容所'] = await loadCSV('/source/topic/newtaipeis/topic1-1__Town__regional_discrete_count(避難收容所).csv')
+        newtaipeiData.value['防空疏散地點'] = await loadCSV('/source/topic/newtaipeis/topic1-1__Town__regional_discrete_count(防空疏散地點).csv')
+
+        // City-level data
+        const taipeiCityAED = await loadCSV('/source/topic/taipei/topic1-2__City__regional_discrete_count(AED).csv')
+        const taipeiCityPolice = await loadCSV('/source/topic/taipei/topic1-2__City__regional_discrete_count(警消).csv')
+        const taipeiCityShelter = await loadCSV('/source/topic/taipei/topic1-2__City__regional_discrete_count(避難收容所).csv')
+        const taipeiCityAirRaid = await loadCSV('/source/topic/taipei/topic1-2__City__regional_discrete_count(防空疏散地點).csv')
+
+        taipeiCityData.value = {
+          'AED': taipeiCityAED[0] || {},
+          '警消': taipeiCityPolice[0] || {},
+          '避難收容所': taipeiCityShelter[0] || {},
+          '防空疏散地點': taipeiCityAirRaid[0] || {}
+        }
+
+        const newtaipeiCityAED = await loadCSV('/source/topic/newtaipeis/topic1-2__City__regional_discrete_count(AED).csv')
+        const newtaipeiCityPolice = await loadCSV('/source/topic/newtaipeis/topic1-2__City__regional_discrete_count(警消).csv')
+        const newtaipeiCityShelter = await loadCSV('/source/topic/newtaipeis/topic1-2__City__regional_discrete_count(避難收容所).csv')
+        const newtaipeiCityAirRaid = await loadCSV('/source/topic/newtaipeis/topic1-2__City__regional_discrete_count(防空疏散地點).csv')
+
+        newtaipeiCityData.value = {
+          'AED': newtaipeiCityAED[0] || {},
+          '警消': newtaipeiCityPolice[0] || {},
+          '避難收容所': newtaipeiCityShelter[0] || {},
+          '防空疏散地點': newtaipeiCityAirRaid[0] || {}
+        }
+
+      } catch (error) {
+        console.error('Error loading Topic 1 data:', error)
+      }
+    }
+
+    // Watch for section changes to initialize maps
+    watch(selectedSection, (newVal) => {
+      setTimeout(() => {
+        if (newVal === 'taipei') {
+          initTaipeiMap()
+        } else if (newVal === 'newtaipei') {
+          initNewtaipeiMap()
+        }
+      }, 100)
+    })
+
+    watch(selectedResourceType, () => {
+      setTimeout(() => {
+        if (selectedSection.value === 'taipei') {
+          initTaipeiMap()
+        } else if (selectedSection.value === 'newtaipei') {
+          initNewtaipeiMap()
+        }
+      }, 100)
+    })
+
+    onMounted(async () => {
+      await loadData()
+      setTimeout(() => {
+        initTaipeiMap()
+      }, 100)
+    })
+
+    return {
+      selectedSection,
+      selectedResourceType,
+      taipeiMapContainer,
+      newtaipeiMapContainer,
+      currentStats,
+      taipeiCountSeries,
+      taipeiCountChartOptions,
+      taipeiPopRatioSeries,
+      taipeiPopRatioChartOptions,
+      taipeiDispersionSeries,
+      taipeiDispersionChartOptions,
+      taipeiEntropySeries,
+      taipeiEntropyChartOptions,
+      newtaipeiCountSeries,
+      newtaipeiCountChartOptions,
+      newtaipeiPopRatioSeries,
+      newtaipeiPopRatioChartOptions,
+      newtaipeiDispersionSeries,
+      newtaipeiDispersionChartOptions,
+      newtaipeiEntropySeries,
+      newtaipeiEntropyChartOptions,
+      cityComparisonCountSeries,
+      cityComparisonCountOptions,
+      cityComparisonMetricsSeries,
+      cityComparisonMetricsOptions,
+      districtComparisonSeries,
+      districtComparisonOptions,
+      spatialComparisonSeries,
+      spatialComparisonOptions,
+      comparisonSummary
+    }
+  }
+}
+</script>
+
+<style scoped>
+.section-title {
+  color: #60a5fa;
+  font-size: 1.5rem;
+  margin: 24px 0 16px 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #334155;
+}
+
+.comparison-summary {
+  padding: 20px;
+  background: rgba(51, 65, 85, 0.3);
+  border-radius: 8px;
+  border: 1px solid #334155;
+}
+
+.comparison-summary h4 {
+  margin-top: 0;
+}
+</style>

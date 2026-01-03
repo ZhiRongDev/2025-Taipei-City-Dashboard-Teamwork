@@ -29,41 +29,38 @@
 
     <div class="grid grid-2">
       <div class="card">
-        <h3>主要分析主題</h3>
+        <h3>三大分析主題</h3>
         <div style="color: #cbd5e1; line-height: 2;">
-          <p><strong style="color: #60a5fa;">📊 AED 分析</strong><br>
-          地區分布數量、人均使用比例、空間離散度分析</p>
+          <p><strong style="color: #60a5fa;">📊 Topic 1: 區域人口與防災資源比分析</strong><br>
+          結合鄉鎮市區人口統計與防災資源（包含防空疏散設施、避難收容處所、AED 及消防/警政據點）進行比對，
+          針對數量、人均數量與地點離散度等指標，分析各區的防災資源密度。</p>
 
-          <p><strong style="color: #60a5fa;">🏘️ 避難收容處所統計</strong><br>
-          各災別收容能力、人均收容面積、空間熵評估</p>
+          <p><strong style="color: #60a5fa;">🏘️ Topic 2: 避難所人均面積分析</strong><br>
+          將防空避難設施進行空間與容量交叉評估，包括設施面積、總容納人數與人均收容空間，
+          以矩形圖形式直觀呈現，協助判斷哪些地區設施壓力較高、分布較擁擠。</p>
 
-          <p><strong style="color: #60a5fa;">🛡️ 防空疏散設施</strong><br>
-          容納人數、設施面積、區域覆蓋率分析</p>
-
-          <p><strong style="color: #60a5fa;">🗺️ 景點周邊資源</strong><br>
-          觀光景點 1km/5km/10km 範圍內防災設施分布</p>
-
-          <p><strong style="color: #60a5fa;">🔄 雙北比較</strong><br>
-          台北市與新北市防災資源橫向比較分析</p>
+          <p><strong style="color: #60a5fa;">🗺️ Topic 3: 景點周遭距離分析</strong><br>
+          考量旅遊景點常為高人流熱區，若發生災害將對救援效率構成挑戰，因此針對觀光景點 1km、5km 與 10km
+          範圍內防災設施進行 haversine 距離分析，盤點其應變能力與資源覆蓋程度。</p>
         </div>
       </div>
 
       <div class="card">
-        <h3>資料來源與方法</h3>
+        <h3>資料來源與分析方法</h3>
         <div style="color: #cbd5e1; line-height: 1.8;">
           <p><strong>資料來源：</strong></p>
           <ul style="margin-left: 20px; margin-bottom: 16px;">
-            <li>內政部國土測繪中心人口統計資料</li>
+            <li>內政部國土測繪中心人口統計資料 (113年12月)</li>
             <li>政府資料開放平台防災資源清單</li>
             <li>觀光局景點遊客統計資料</li>
           </ul>
 
-          <p><strong>分析方法：</strong></p>
+          <p><strong>離散度分析指標：</strong></p>
           <ul style="margin-left: 20px;">
-            <li><strong>離散度分析：</strong>平均兩兩距離 (Euclidean Distance)</li>
-            <li><strong>空間熵：</strong>網格法分布隨機性評估</li>
-            <li><strong>人口比值：</strong>每設施平均服務人口/戶數</li>
-            <li><strong>距離分析：</strong>Haversine 距離計算</li>
+            <li><strong>平均兩兩距離 (Dispersion):</strong> 計算各設施間的歐氏距離平均，反映地理上分散程度</li>
+            <li><strong>空間熵 (Spatial Entropy):</strong> 透過網格分佈與資訊熵公式，分析設施分布的隨機性與集中性</li>
+            <li><strong>人口比值指標:</strong> 透過區域人口與戶數對資源數量的比值計算</li>
+            <li><strong>Haversine 距離:</strong> 用於計算景點周邊防災資源的地理距離</li>
           </ul>
         </div>
       </div>
