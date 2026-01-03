@@ -135,15 +135,42 @@ Two complementary methods:
 - Haversine distance calculation for tourist spots
 - 1km, 5km, and 10km radius resource counting
 
-## MapBox Token
+## MapBox Token Setup
 
-The dashboard uses MapBox GL for interactive maps. A token is pre-configured in the code. For production deployment, replace with your own token:
+The dashboard uses MapBox GL for interactive maps. You need to configure your own token:
 
-```
-VITE_MAPBOX_TOKEN = 'YOUR_TOKEN_HERE'
-```
+### For Local Development
 
-Get a free token at: https://www.mapbox.com/
+1. Create a `.env` file in the project root:
+   ```bash
+   VITE_MAPBOX_TOKEN=your_token_here
+   ```
+
+2. Get a free token at: https://account.mapbox.com/
+
+### For GitHub Pages Deployment
+
+1. **Create a Mapbox Token** with URL restrictions:
+   - Go to https://account.mapbox.com/access-tokens/
+   - Create a new public token
+   - Add URL restriction: `https://yourusername.github.io/*`
+   - **DO NOT** add `localhost` to the restrictions (this prevents token theft)
+
+2. **Add GitHub Secret**:
+   - Go to your repository → Settings → Secrets and variables → Actions
+   - Click "New repository secret"
+   - Name: `VITE_MAPBOX_TOKEN`
+   - Value: Your Mapbox token
+   - Click "Add secret"
+
+3. **Deploy**: Push to main branch and GitHub Actions will automatically build and deploy
+
+### Security Notes
+
+- The token WILL be visible in browser JavaScript (this is expected for public tokens)
+- Protect it by restricting URLs in Mapbox settings to ONLY your production domain
+- Never commit `.env` to git (already in `.gitignore`)
+- For local development, create your own `.env` file based on `.env.template`
 
 ## Browser Compatibility
 
@@ -167,6 +194,16 @@ All data files are loaded from the `/source/` directory. CSV files are parsed wi
 
 ## Production Deployment
 
+### GitHub Pages (Automated)
+
+This repository includes GitHub Actions for automatic deployment:
+
+1. Set up the Mapbox token secret (see MapBox Token Setup section)
+2. Push to the `main` branch
+3. GitHub Actions will automatically build and deploy to GitHub Pages
+
+### Manual Deployment
+
 ```bash
 # Build static files
 npm run build
@@ -176,7 +213,7 @@ npm run build
 
 The build output is optimized for static hosting on platforms like:
 
-- GitHub Pages
+- GitHub Pages ✅ Automated workflow included
 - Netlify
 - Vercel
 - AWS S3 + CloudFront
