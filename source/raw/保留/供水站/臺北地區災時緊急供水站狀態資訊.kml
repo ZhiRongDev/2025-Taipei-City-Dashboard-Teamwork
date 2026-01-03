@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Schema name="緊急取水站" id="緊急取水站">
+    <SimpleField name="項次編號" type="string"></SimpleField>
+    <SimpleField name="狀態" type="string"></SimpleField>
+    <SimpleField name="行政區" type="string"></SimpleField>
+    <SimpleField name="名稱" type="string"></SimpleField>
+    <SimpleField name="地點" type="string"></SimpleField>
+    <SimpleField name="預定關閉時間" type="string"></SimpleField>
+    <SimpleField name="聯絡窗口" type="string"></SimpleField>
+    <SimpleField name="電話" type="string"></SimpleField>
+    <SimpleField name="備註" type="string"></SimpleField>
+</Schema><Folder>
+<Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">1</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="名稱">北投幹線</SimpleData>
+        <SimpleData name="地點">士商路與基河路240巷交口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52021,25.090558</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">2</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="名稱">北投幹線</SimpleData>
+        <SimpleData name="地點">承德路與士商路交口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51418,25.096167</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">3</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="名稱">關渡線</SimpleData>
+        <SimpleData name="地點">社子河濱棒球場</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50698,25.094313</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">4</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="名稱">雙溪淨水場配水池</SimpleData>
+        <SimpleData name="地點">臺北市士林區至善路2段34號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">值班室</SimpleData>
+        <SimpleData name="電話">(02)28411285</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.56941,25.114420</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">5</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="名稱">北投幹線</SimpleData>
+        <SimpleData name="地點">劍潭捷運局南側中山北路5段65號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52500,25.084251</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">6</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大同區</SimpleData>
+        <SimpleData name="名稱">關渡線</SimpleData>
+        <SimpleData name="地點">承德橋下左岸高灘地</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52033,25.077340</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">7</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大同區</SimpleData>
+        <SimpleData name="名稱">玉泉公園</SimpleData>
+        <SimpleData name="地點">臺北市西寧北路28號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">馬龍堯</SimpleData>
+        <SimpleData name="電話">(02)21004115</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50774,25.049130</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">8</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="名稱">清一幹線建國南路</SimpleData>
+        <SimpleData name="地點">大安森林公園4號出口對面</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53509,25.033696</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">9</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="名稱">長興淨水場清水池</SimpleData>
+        <SimpleData name="地點">長興街131號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54748,25.014960</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">10</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="名稱">清二幹線長興支線</SimpleData>
+        <SimpleData name="地點">長興街與基隆路交口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54456,25.017044</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">11</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="名稱">三重支線</SimpleData>
+        <SimpleData name="地點">南昌街與羅斯福路交口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52471,25.023884</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">12</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="名稱">輸水幹線</SimpleData>
+        <SimpleData name="地點">復興南路與辛亥路交口(台大後門)</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54329,25.021038</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">13</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="名稱">清二幹線敦化南路</SimpleData>
+        <SimpleData name="地點">敦化南路與忠孝東路交口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54888,25.041431</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">14</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="名稱">長興淨水場清水池</SimpleData>
+        <SimpleData name="地點">臺北市長興街131號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)83695137</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54789,25.014545</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">15</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="名稱">北投幹線</SimpleData>
+        <SimpleData name="地點">中山橋下(兒童育樂公園內)</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52457,25.073777</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">16</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="名稱">關渡線</SimpleData>
+        <SimpleData name="地點">玉門街1號中山足球場西南側停車場</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52042,25.070535</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">17</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="名稱">輸水幹線</SimpleData>
+        <SimpleData name="地點">長春路與松江路交口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53318,25.054831</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">18</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="名稱">清一幹線建國北路</SimpleData>
+        <SimpleData name="地點">建國北路與民生東路交口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53706,25.057897</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">19</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="名稱">北投幹線</SimpleData>
+        <SimpleData name="地點">美術館北面</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52484,25.072782</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">20</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="名稱">大同加壓站配水池</SimpleData>
+        <SimpleData name="地點">臺北市新生北路3段101號(新生公園)</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52892,25.068778</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">21</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中正區</SimpleData>
+        <SimpleData name="名稱">228和平公園</SimpleData>
+        <SimpleData name="地點">臺北市懷寧街、凱達格蘭大道口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)33431686</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51400,25.040050</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">22</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中正區(萬華區)</SimpleData>
+        <SimpleData name="名稱">公館淨水場配水池</SimpleData>
+        <SimpleData name="地點">臺北市思源街1號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">公館場</SimpleData>
+        <SimpleData name="電話">(02)83695151</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53126,25.013977</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">23</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="名稱">華江社區配水池</SimpleData>
+        <SimpleData name="地點">臺北市和平西路三段302巷臨1號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.49270,25.034728</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">24</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="名稱">青年公園</SimpleData>
+        <SimpleData name="地點">臺北市青年路68巷口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)33431686</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50268,25.022814</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">25</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="名稱">民生內湖線</SimpleData>
+        <SimpleData name="地點">南湖大橋下左岸高灘地</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.61122,25.063327</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">26</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="名稱">東湖加壓站配水池</SimpleData>
+        <SimpleData name="地點">臺北市內湖區康寧路3段75巷24弄35號旁</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)87703373</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.60978,25.073833</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">27</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="名稱">內湖四期加壓站配水池</SimpleData>
+        <SimpleData name="地點">臺北市內湖區麗湖國小附設幼稚園旁</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)87703373</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.59994,25.072889</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">28</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="名稱">大湖公園</SimpleData>
+        <SimpleData name="地點">臺北市成功路五段31號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)87703373</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.60489,25.082694</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">29</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">文山區</SimpleData>
+        <SimpleData name="名稱">清一幹線</SimpleData>
+        <SimpleData name="地點">師大分部北側福和橋邊(基隆路4段福和橋頭)</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53638,25.010718</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">30</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">文山區</SimpleData>
+        <SimpleData name="名稱">木柵二期加壓站配水池</SimpleData>
+        <SimpleData name="地點">臺北市木柵政大一街355號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)83695137</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.58632,24.987553</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">31</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">文山區</SimpleData>
+        <SimpleData name="名稱">景華公園</SimpleData>
+        <SimpleData name="地點">臺北市景興路與景華街交會口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)83695137</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54253,24.996225</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">32</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="名稱">北投幹線</SimpleData>
+        <SimpleData name="地點">北投大同公司對面</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50195,25.120065</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">33</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="名稱">北投第一配水池</SimpleData>
+        <SimpleData name="地點">臺北市新民路55號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51027,25.140475</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">34</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="名稱">民生內湖線</SimpleData>
+        <SimpleData name="地點">民權公園北側</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.55856,25.062116</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">35</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="名稱">民生加壓站配水池</SimpleData>
+        <SimpleData name="地點">臺北市民生東路光復北路交叉口</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.55469,25.059556</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">36</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="名稱">松山加壓站配水池</SimpleData>
+        <SimpleData name="地點">臺北市民權東路5段41之1號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.56811,25.062944</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">37</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">信義區</SimpleData>
+        <SimpleData name="名稱">松德公園</SimpleData>
+        <SimpleData name="地點">臺北市松德路180巷8之1號對面</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)21004115</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.57306,25.034861</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">38</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">信義區</SimpleData>
+        <SimpleData name="名稱">挹翠社區配水池</SimpleData>
+        <SimpleData name="地點">臺北市祥雲街39號(對面)</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)83695137</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.57490,25.018662</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">39</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="名稱">南港公園</SimpleData>
+        <SimpleData name="地點">臺北市東新街170號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)87703373</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.59139,25.045911</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">40</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="名稱">南港加壓站配水池</SimpleData>
+        <SimpleData name="地點">臺北市研究院路2段1號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)87703373</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.61604,25.048650</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">41</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市三重區</SimpleData>
+        <SimpleData name="名稱">三重加壓站配水池</SimpleData>
+        <SimpleData name="地點">新北市中正北路25巷29號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">李叔龍</SimpleData>
+        <SimpleData name="電話">(02)87335942</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.49391,25.063362</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">42</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市新店區</SimpleData>
+        <SimpleData name="名稱">清一幹線</SimpleData>
+        <SimpleData name="地點">安康加壓站</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50923,24.961481</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">43</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市新店區</SimpleData>
+        <SimpleData name="名稱">安華新店線</SimpleData>
+        <SimpleData name="地點">新店陽光運動公園</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52045,24.976768</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">44</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市中和區</SimpleData>
+        <SimpleData name="名稱">清一幹線</SimpleData>
+        <SimpleData name="地點">中和成功路47號</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52632,24.993228</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">45</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市中和區</SimpleData>
+        <SimpleData name="名稱">中和支線</SimpleData>
+        <SimpleData name="地點">中和景平路57號邊</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">加壓股</SimpleData>
+        <SimpleData name="電話">(02)87335972</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52134,24.990653</coordinates></Point>
+ </Placemark>
+ <Placemark><name>緊急取水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#緊急取水站">
+        <SimpleData name="項次編號">46</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">信義區</SimpleData>
+        <SimpleData name="名稱">景勤2號公園</SimpleData>
+        <SimpleData name="地點">臺北市信義區信安街67巷旁</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="聯絡窗口">修漏股</SimpleData>
+        <SimpleData name="電話">(02)83695137</SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.55823,25.026188</coordinates></Point>
+ </Placemark>
+ </Folder></Document></kml>

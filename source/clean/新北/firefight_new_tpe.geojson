@@ -1,0 +1,2525 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4616656,25.07827966 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局更寮分隊",
+    "cityName":"新北市",
+    "townName":"五股區",
+    "address":"中興路二段83巷26-6號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4539346,25.00128015 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區南雅南路二段15號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4739266,25.02430234 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局第一救災救護大隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區莒光路161號3樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.506699,24.98970773 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局南勢分隊",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"南山路236號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4725918,24.99965818 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局國光分隊",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區莒光路160-1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5201243,25.00427049 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局永利分隊",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"永利路72號之1",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4739266,25.02430234 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局莒光分隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區莒光路161號1樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4633775,24.99911611 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局板橋分隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"重慶路293號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4424718,25.00456104 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局大觀分隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區大觀路一段38巷1-3號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4599537,25.02404411 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局海山分隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"英士路151號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4721718,25.01749716 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局民生分隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"民生路二段56之2號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4303631,24.9887311 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局溪崑分隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區篤行路2段135號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4509918,25.03593676 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局第二救災救護大隊",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區中正路170號5樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4567489,25.06326235 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局五工分隊",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區五工路97巷5號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4276157,25.0294408 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局福營分隊",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區福營路279號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4509918,25.03593676 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局新莊分隊",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區中正路170號1樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4462931,25.05453099 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局中港分隊",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區中原路512號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4669952,25.04914775 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局頭前分隊",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區幸福東路7號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4398174,25.08246747 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局五股分隊",
+    "cityName":"新北市",
+    "townName":"五股區",
+    "address":"工商路1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4334403,25.07144405 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局德音分隊",
+    "cityName":"新北市",
+    "townName":"五股區",
+    "address":"新北市五股區明德路8號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4273914,25.05006028 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局泰山分隊",
+    "cityName":"新北市",
+    "townName":"泰山區",
+    "address":"明志路二段188號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3883893,25.07882439 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局林口分隊",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區中山路137號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.461374,25.09299073 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局第三救災救護大隊",
+    "cityName":"新北市",
+    "townName":"蘆洲區",
+    "address":"新北市蘆洲區長榮路792號6樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4869874,25.06113091 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局重陽分隊",
+    "cityName":"新北市",
+    "townName":"三重區",
+    "address":"新北市三重區重陽路一段123號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4691143,25.05857224 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局二重分隊",
+    "cityName":"新北市",
+    "townName":"三重區",
+    "address":"中興北街225號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4689773,25.07674732 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局蘆洲分隊",
+    "cityName":"新北市",
+    "townName":"蘆洲區",
+    "address":"新北市蘆洲區中山一路415號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4513626,25.13234959 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局龍源分隊",
+    "cityName":"新北市",
+    "townName":"八里區",
+    "address":"龍米路一段225號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4081685,25.15582955 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局八里分隊",
+    "cityName":"新北市",
+    "townName":"八里區",
+    "address":"新北市八里區中山路二段76號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4397043,25.17491183 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局淡水分隊",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區新生街29號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.455617,25.159542 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局竹圍分隊",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區竿蓁里21鄰中正東路一段125號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5004941,25.2585693 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局三芝分隊",
+    "cityName":"新北市",
+    "townName":"三芝區",
+    "address":"新北市三芝區中山路一段10號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5421976,24.96911189 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局第四救災救護大隊",
+    "cityName":"新北市",
+    "townName":"新店區",
+    "address":"新北市新店區北新路1段98號5樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.542082,24.96715628 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局新店分隊",
+    "cityName":"新北市",
+    "townName":"新店區",
+    "address":"新北市新店區北新路一段98號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5343116,24.93858772 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局直潭分隊",
+    "cityName":"新北市",
+    "townName":"新店區",
+    "address":"新北市新店區直潭十街25號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4937415,24.9538355 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局安康分隊",
+    "cityName":"新北市",
+    "townName":"新店區",
+    "address":"安康路三段2號1樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6576101,24.99134885 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局石碇分隊",
+    "cityName":"新北市",
+    "townName":"石碇區",
+    "address":"新北市石碇區碇坪路一段81號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7125676,24.93664772 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局坪林分隊",
+    "cityName":"新北市",
+    "townName":"坪林區",
+    "address":"新北市坪林區國中路1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6594766,24.9857787 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局雪山分隊",
+    "cityName":"新北市",
+    "townName":"坪林區",
+    "address":"新北市坪林區坪雙路一段56號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5485774,24.86396465 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局烏來分隊",
+    "cityName":"新北市",
+    "townName":"烏來區",
+    "address":"新北市烏來區環山路51號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6281134,25.00264785 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局深坑分隊",
+    "cityName":"新北市",
+    "townName":"深坑區",
+    "address":"新北市深坑區文山路1段35號1樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3571224,24.9406673 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局第五救災救護大隊",
+    "cityName":"新北市",
+    "townName":"三峽區",
+    "address":"新北市三峽區隆恩街247號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4451272,24.97333002 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局土城分隊",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"金城路一段90號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4589257,24.98466996 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局清水分隊",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"新北市土城區青雲路35號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4214342,24.96308925 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局頂埔分隊",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"新北市土城區中山路49號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4228948,24.97537235 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局樹林分隊",
+    "cityName":"新北市",
+    "townName":"樹林區",
+    "address":"新北市樹林區環漢路五段50號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4229534,25.00865549 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局樹潭分隊",
+    "cityName":"新北市",
+    "townName":"樹林區",
+    "address":"新北市樹林區俊保路160號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4029411,24.96045364 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局柑園分隊",
+    "cityName":"新北市",
+    "townName":"樹林區",
+    "address":"新北市樹林區柑園街一段60號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3753482,24.93064299 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局三峽分隊",
+    "cityName":"新北市",
+    "townName":"三峽區",
+    "address":"新北市三峽區中正路1段46號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3571224,24.9406673 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局隆恩分隊",
+    "cityName":"新北市",
+    "townName":"三峽區",
+    "address":"新北市三峽區隆恩街247號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3416967,24.95138097 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局鶯歌分隊",
+    "cityName":"新北市",
+    "townName":"鶯歌區",
+    "address":"新北市鶯歌區建國路420號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6339258,25.0650883 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局第六救災救護大隊",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區福德一路236號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6339523,25.06497128 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局社后分隊",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區中興里福德一路236號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.659539,25.06773488 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局汐止分隊",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區大同路二段447號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6570319,25.06413087 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局秀峰分隊",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區忠孝東路1-1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6035218,25.11279015 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局長青分隊",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"永春一路4號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.620148,25.0505216 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局橫科分隊",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區橫科路119號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.807531,25.1073089 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局瑞芳分隊",
+    "cityName":"新北市",
+    "townName":"瑞芳區",
+    "address":"新北市瑞芳區中正路30號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7621892,25.10211938 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局瑞亭分隊",
+    "cityName":"新北市",
+    "townName":"瑞芳區",
+    "address":"新北市瑞芳區大埔路176號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6281881,25.2209637 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局金山分隊",
+    "cityName":"新北市",
+    "townName":"金山區",
+    "address":"新北市金山區南勢54號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5674716,25.29066547 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局石門分隊",
+    "cityName":"新北市",
+    "townName":"石門區",
+    "address":"新北市石門區尖鹿里3鄰中山路64之1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6874595,25.17509982 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局萬里分隊",
+    "cityName":"新北市",
+    "townName":"萬里區",
+    "address":"新北市萬里區景美16號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.866587,25.03196 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局雙溪分隊",
+    "cityName":"新北市",
+    "townName":"雙溪區",
+    "address":"新北市雙溪區中山路45號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9098881,25.02194503 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局貢寮分隊",
+    "cityName":"新北市",
+    "townName":"貢寮區",
+    "address":"新北市貢寮區朝陽街66號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7323258,25.02326451 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局平溪分隊",
+    "cityName":"新北市",
+    "townName":"平溪區",
+    "address":"新北市平溪區靜安路二段289號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4600769,25.012394 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局板橋分局",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區挹秀里文化路1段52號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5203835,25.0095649 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局永和分局",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"竹林路198號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.496024,24.997799 ]
+    },
+    "properties": {
+    "LocationName":"錦和派出所",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區安邦街20號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472616,24.999649 ]
+    },
+    "properties": {
+    "LocationName":"國光派出所",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區自強里2鄰莒光路160號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4809159,24.99825933 ]
+    },
+    "properties": {
+    "LocationName":"員山派出所",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區員山路235巷1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4801504,25.00481981 ]
+    },
+    "properties": {
+    "LocationName":"積穗派出所",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區員山路471號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5417551,24.9676021 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局新店分局",
+    "cityName":"新北市",
+    "townName":"新店區",
+    "address":"新北市新店區新店區寶橋路188號4樓",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4517365,25.0361659 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局新莊分局",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區中正路150號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4148529,25.0276625 ]
+    },
+    "properties": {
+    "LocationName":"丹鳳派出所",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區雙鳳里4鄰雙鳳路75號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4263551,25.0171737 ]
+    },
+    "properties": {
+    "LocationName":"光華派出所",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"光正里民安西路141號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4342801,25.0322146 ]
+    },
+    "properties": {
+    "LocationName":"福營派出所",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"福營里福營路101號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4658079,25.0481504 ]
+    },
+    "properties": {
+    "LocationName":"頭前派出所",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"化成里化成路312號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4519024,25.04663 ]
+    },
+    "properties": {
+    "LocationName":"中港派出所",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"中華里中港路352號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4533105,25.0346116 ]
+    },
+    "properties": {
+    "LocationName":"新莊派出所",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新莊路212號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.444763,25.0512263 ]
+    },
+    "properties": {
+    "LocationName":"中平派出所",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"中平里中平路286號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4189258,24.9968903 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局樹林分局",
+    "cityName":"新北市",
+    "townName":"樹林區",
+    "address":"新北市樹林區保安街1段283號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4367122,25.17253 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局淡水分局",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區中正路229號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6401401,25.0771602 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局汐止分局",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區大同路二段459號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6989129,25.06069751 ]
+    },
+    "properties": {
+    "LocationName":"東山派出所",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區汐平路二段68號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6467409,25.0884 ]
+    },
+    "properties": {
+    "LocationName":"烘內派出所",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區汐萬路二段230號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6053654,25.1110988 ]
+    },
+    "properties": {
+    "LocationName":"八連派出所",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區長青路一八八巷1之1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6191911,25.0476675 ]
+    },
+    "properties": {
+    "LocationName":"橫科派出所",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區民權街二段87號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6335138,25.0637276 ]
+    },
+    "properties": {
+    "LocationName":"社后派出所",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區中興路108號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6680919,25.0775796 ]
+    },
+    "properties": {
+    "LocationName":"長安派出所",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區大同路三段99號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6625939,25.0835261 ]
+    },
+    "properties": {
+    "LocationName":"汐止派出所",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區民生路1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4603145,25.0936309 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局蘆洲分局",
+    "cityName":"新北市",
+    "townName":"蘆洲區",
+    "address":"新北市蘆洲區三民路609號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4614035,25.0817354 ]
+    },
+    "properties": {
+    "LocationName":"延平派出所",
+    "cityName":"新北市",
+    "townName":"蘆洲區",
+    "address":"新北市蘆洲區長安街108巷2號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4583813,25.077896 ]
+    },
+    "properties": {
+    "LocationName":"更寮派出所",
+    "cityName":"新北市",
+    "townName":"五股區",
+    "address":"新北市五股區中興路二段147號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4485519,25.095842 ]
+    },
+    "properties": {
+    "LocationName":"成洲派出所",
+    "cityName":"新北市",
+    "townName":"五股區",
+    "address":"新北市五股區成泰路三段539號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4513567,25.1323479 ]
+    },
+    "properties": {
+    "LocationName":"龍源派出所",
+    "cityName":"新北市",
+    "townName":"八里區",
+    "address":"新北市八里區龍米路一段225號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4603145,25.0936309 ]
+    },
+    "properties": {
+    "LocationName":"三民派出所",
+    "cityName":"新北市",
+    "townName":"蘆洲區",
+    "address":"新北市蘆洲區三民路609號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.472768,25.0819604 ]
+    },
+    "properties": {
+    "LocationName":"蘆洲派出所",
+    "cityName":"新北市",
+    "townName":"蘆洲區",
+    "address":"仁復里中山二路92號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.430125,25.0718219 ]
+    },
+    "properties": {
+    "LocationName":"德音派出所",
+    "cityName":"新北市",
+    "townName":"五股區",
+    "address":"新北市五股區水碓二路1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4816873,25.084842 ]
+    },
+    "properties": {
+    "LocationName":"集賢派出所",
+    "cityName":"新北市",
+    "townName":"蘆洲區",
+    "address":"集賢路245號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6406957,25.22033751 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局金山分局",
+    "cityName":"新北市",
+    "townName":"金山區",
+    "address":"新北市金山區民生路65號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4700726,25.0114339 ]
+    },
+    "properties": {
+    "LocationName":"海山派出所",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"長安里漢生東路195號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4599471,25.024047 ]
+    },
+    "properties": {
+    "LocationName":"新海派出所",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"幸福里英士路151號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4796239,25.0187107 ]
+    },
+    "properties": {
+    "LocationName":"埔墘派出所",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"埔墘里中山路二段286號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4773353,25.0268401 ]
+    },
+    "properties": {
+    "LocationName":"江翠派出所",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"大同街14號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429322,24.973286 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局土城分局",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"和平路22號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4588751,24.9812931 ]
+    },
+    "properties": {
+    "LocationName":"清水派出所",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"青雲路220號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5171262,24.9802841 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局安和分隊",
+    "cityName":"新北市",
+    "townName":"新店區",
+    "address":"新北市新店區安和路3段3號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8467977,25.10610183 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局九份分隊",
+    "cityName":"新北市",
+    "townName":"瑞芳區",
+    "address":"新北市瑞芳區崙頂路1-5號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5010176,24.99792857 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局中和分局",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區圓通路30號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5050409,25.01331706 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局永平分隊",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"新北市永和區環河西路二段177-1號1樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5144973,25.0062518 ]
+    },
+    "properties": {
+    "LocationName":"永和派出所",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"新北市永和區安樂路344號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5210451,25.0037669 ]
+    },
+    "properties": {
+    "LocationName":"秀朗派出所",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"永利路73號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5158288,25.0163694 ]
+    },
+    "properties": {
+    "LocationName":"中正橋派出所",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"永和路二段303號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5102178,25.0125961 ]
+    },
+    "properties": {
+    "LocationName":"新生派出所",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"仁愛路187號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5200534,24.9970676 ]
+    },
+    "properties": {
+    "LocationName":"得和派出所",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"民權路51號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.498536,25.058813 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局三重分隊",
+    "cityName":"新北市",
+    "townName":"三重區",
+    "address":"新北市三重區正義南路107號2樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4180864,25.0226157 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局裕民分隊",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區裕民街136號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4780766,25.1858101 ]
+    },
+    "properties": {
+    "LocationName":"水源派出所",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區北新路二段19號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4518809,25.2177987 ]
+    },
+    "properties": {
+    "LocationName":"興仁派出所",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區興仁路93號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.43679,25.1727286 ]
+    },
+    "properties": {
+    "LocationName":"中正路派出所",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區中正路318-1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4597957,25.1374492 ]
+    },
+    "properties": {
+    "LocationName":"竹圍派出所",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區民權路32號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4443604,25.1782853 ]
+    },
+    "properties": {
+    "LocationName":"水碓派出所",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區中山北路一段160號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4548319,25.2334968 ]
+    },
+    "properties": {
+    "LocationName":"賢孝派出所",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區淡金路五段72號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.47732,25.2466 ]
+    },
+    "properties": {
+    "LocationName":"後厝派出所",
+    "cityName":"新北市",
+    "townName":"三芝區",
+    "address":"新北市三芝區北勢子45之32號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5252778,25.2366667 ]
+    },
+    "properties": {
+    "LocationName":"興華派出所",
+    "cityName":"新北市",
+    "townName":"三芝區",
+    "address":"新北市三芝區田心子1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.456118,24.9877522 ]
+    },
+    "properties": {
+    "LocationName":"廣福派出所",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"學府路一段103號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4429322,24.973286 ]
+    },
+    "properties": {
+    "LocationName":"土城派出所",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"和平路22號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.431499,24.96557766 ]
+    },
+    "properties": {
+    "LocationName":"頂埔派出所",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"新北市土城區中央路三段164號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4635214,24.98409407 ]
+    },
+    "properties": {
+    "LocationName":"金城派出所",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"新北市土城區延吉街318號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.519877,25.00950347 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局永和分隊",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"新北市永和區警光街1-1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4644159,25.00913781 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局新板分隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"民族路57號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4267876,25.0468232 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局五泰林中隊",
+    "cityName":"新北市",
+    "townName":"泰山區",
+    "address":"新北市泰山區明志路二段188號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.45254,25.0541749 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局新莊中隊",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區中原路512號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5049258,25.0132421 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局永和中隊",
+    "cityName":"新北市",
+    "townName":"永和區",
+    "address":"新北市永和區永利路72-1號4樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4691841,25.0585525 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局三重中隊",
+    "cityName":"新北市",
+    "townName":"三重區",
+    "address":"新北市三重區中興北街225號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4556043,25.1594851 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局淡水中隊",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區中正東路一段125號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.403021,24.960426 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局樹林中隊",
+    "cityName":"新北市",
+    "townName":"樹林區",
+    "address":"新北市樹林區柑園街一段60號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.445061,24.9733766 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局土城中隊",
+    "cityName":"新北市",
+    "townName":"土城區",
+    "address":"新北市土城區金城路一段90號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5032267,25.00562948 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局第七救災救護大隊",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區中山路二段64巷11號4樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4817796,25.0090329 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局員山分隊",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區中正路1163號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.487567,25.083421 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局慈福分隊",
+    "cityName":"新北市",
+    "townName":"三重區",
+    "address":"新北市三重區溪尾街301號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4539346,25.00128015 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局特搜大隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區南雅南路二段15號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4633775,24.99911611 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局板橋中隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區重慶路293號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7695343,24.69561055 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局瑞芳中隊",
+    "cityName":"新北市",
+    "townName":"瑞芳區",
+    "address":"新北市瑞芳區中正路30號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6281134,25.00264785 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局新店中隊",
+    "cityName":"新北市",
+    "townName":"深坑區",
+    "address":"新北市深坑區文山路一段35號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4539346,25.00128015 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局南雅分隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區南雅南路二段15號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5032267,25.00562948 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局中和分隊",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區中山路二段64巷11號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4371263,25.17151123 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局滬尾分隊",
+    "cityName":"新北市",
+    "townName":"淡水區",
+    "address":"新北市淡水區中正路15巷5號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4539346,25.00128015 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局民力運用科",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區南雅南路二段15號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4539346,25.00128015 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局減災規劃科",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區南雅南路二段15號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4614288,25.09297494 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局鷺江分隊",
+    "cityName":"新北市",
+    "townName":"蘆洲區",
+    "address":"新北市蘆洲區長榮路792號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3628777,25.06996371 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局文化分隊",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區 文化三路一段302號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5259836,24.99047218 ]
+    },
+    "properties": {
+    "LocationName":"秀山派出所",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區成功路139號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5079361,24.98652295 ]
+    },
+    "properties": {
+    "LocationName":"南勢派出所",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區南山路322號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5110933,25.0001972 ]
+    },
+    "properties": {
+    "LocationName":"安平派出所",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區中安街175號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5026784,24.99048206 ]
+    },
+    "properties": {
+    "LocationName":"景安派出所",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區復興路276號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4776686,25.00152861 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局中和分局民安駐地",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區民安街150號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4901334,25.05905427 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局三重分局",
+    "cityName":"新北市",
+    "townName":"三重區",
+    "address":"新北市三重區重新路3段147號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.457776,25.063317 ]
+    },
+    "properties": {
+    "LocationName":"五工派出所",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區五工路95-1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4367535,25.0358303 ]
+    },
+    "properties": {
+    "LocationName":"新樹派出所",
+    "cityName":"新北市",
+    "townName":"新莊區",
+    "address":"新北市新莊區",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5316565,24.93039008 ]
+    },
+    "properties": {
+    "LocationName":"新店分局",
+    "cityName":"新北市",
+    "townName":"新店區",
+    "address":"新北市新店區",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4869452,25.06106103 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局重陽消防隊",
+    "cityName":"新北市",
+    "townName":"三重區",
+    "address":"新北市三重區過田里8鄰重陽路一段123號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.362765,24.906941 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局特搜大隊大埔分隊",
+    "cityName":"新北市",
+    "townName":"三峽區",
+    "address":"新北市三峽區中正路2段492號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4712461,25.08927173 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局 蘆洲分隊",
+    "cityName":"新北市",
+    "townName":"蘆洲區",
+    "address":"新北市蘆洲區",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4579675,25.01186453 ]
+    },
+    "properties": {
+    "LocationName":"文聖派出所",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區大同街14號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.8077273,25.10760545 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局瑞芳分局",
+    "cityName":"新北市",
+    "townName":"瑞芳區",
+    "address":"新北市瑞芳區明燈路三段25號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4163094,24.88209766 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局三峽分局",
+    "cityName":"新北市",
+    "townName":"三峽區",
+    "address":"新北市三峽區",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.473927,25.024301 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局海山中隊",
+    "cityName":"新北市",
+    "townName":"板橋區",
+    "address":"新北市板橋區莒光路161號4樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.333946,24.969141 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局鳳鳴分隊",
+    "cityName":"新北市",
+    "townName":"鶯歌區",
+    "address":"新北市鶯歌區鳳鳴路162號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.657032,25.064131 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局汐止中隊",
+    "cityName":"新北市",
+    "townName":"汐止區",
+    "address":"新北市汐止區忠孝東路1-1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.503305,25.005547 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府消防局中和中隊",
+    "cityName":"新北市",
+    "townName":"中和區",
+    "address":"新北市中和區中山路二段64巷11號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3632945,25.07032549 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區南勢里22鄰忠孝二路57號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.433049,25.061685 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局泰山分駐所",
+    "cityName":"新北市",
+    "townName":"泰山區",
+    "address":"新北市泰山區泰林路二段214號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.424712,25.043811 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局明志派出所",
+    "cityName":"新北市",
+    "townName":"泰山區",
+    "address":"新北市泰山區明志路2段426號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.393784,25.077324 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局林口派出所",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區中正路102號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3527235,25.1000868 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局文化派出所",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區麗園一街5號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.36357,25.070114 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局忠孝派出所",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區忠孝二路57號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.379935,25.087584 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局文林派出所",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區文化三路2段600號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.289709,25.11701 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局下福派出所",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區下福里下福99之1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.335843,25.122653 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局瑞平派出所",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區瑞平里10鄰44號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.36357,25.070114 ]
+    },
+    "properties": {
+    "LocationName":"新北市政府警察局林口分局警備隊",
+    "cityName":"新北市",
+    "townName":"林口區",
+    "address":"新北市林口區忠孝二路57號",
+    "單位":"分局"
+    }
+  }
+]
+}

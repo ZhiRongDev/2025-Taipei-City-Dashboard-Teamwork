@@ -1,0 +1,3365 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5687455,25.04072301 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松仁路1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5124293,25.02459445 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局第一救災救護大隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區泉州街40號6樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4957343,25.02845766 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局萬華中隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區西藏路213之1號5樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.499346,25.038608 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局龍山分隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區桂林路137號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5548425,24.97998572 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局文山中隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區樟新街2號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5666833,25.00220677 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局萬芳分隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區萬美街1段52號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5411933,24.9923582 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局景美分隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區景文街30號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5548481,24.9799502 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局寶橋分隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區樟新街2號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5209368,25.04717833 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局中正中隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區北平東路1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5206779,25.0472698 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局華山分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"北平東路1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5271104,25.0437062 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局忠孝分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區忠孝東路2段8號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5123123,25.0244888 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局泉州分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區泉州街40號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.513386,25.046888 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局城中分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"重慶南路1段1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5651474,25.02963352 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局第二救災救護大隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松智路40號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5651291,25.02961511 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局信義中隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松智路40號4樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5687642,25.04074072 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局信義分隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松仁路1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5692301,25.0455721 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局永吉分隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"永吉路48號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.565085,25.0295358 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局莊敬分隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松智路40號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5432529,25.03012699 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局大安中隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"復興南路二段92號5樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.527769,25.0326282 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局金華分隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"愛國東路79巷13號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5522462,25.03287725 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局安和分隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區安和路2段2號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5433293,25.029991 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局復興分隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區復興南路2段92號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6073226,25.05465274 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局南港中隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區興中路6號4樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.607262,25.054683 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局南港分隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"興中路6號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6153271,25.0450335 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局舊莊分隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區研究院路2段86號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5458959,25.0483776 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局第三救災救護大隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區長安東路2段229號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5629742,25.04857814 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局松山中隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"八德路4段162號4樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5629376,25.0485199 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局八德分隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"八德路4段162號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5458959,25.0483776 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局中崙分隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區長安東路2段229號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5364277,25.05385115 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局中山中隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區朱園里18鄰松江路25巷9號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5568445,25.0801536 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局大直分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區樂群二路143號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5341999,25.04763463 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局松江分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區松江路25巷9號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5782113,25.06689201 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局內湖中隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區民權東路6段9號3樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6015,25.083985 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局大湖分隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區成功路5段3號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5902031,25.0699204 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局內湖分隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區成功路2段378號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6129044,25.06745919 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局東湖分隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區五分街8號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5782303,25.06690993 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局民權分隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區民權東路6段9號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5137481,25.06147043 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局第四救災救護大隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區重慶北路二段223號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.527842,25.089956 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局士林中隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區福林里8鄰中山北路五段376號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.544706,25.097617 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局雙溪分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區至善路2段41號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5457056,25.13389978 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局山仔后分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區仰德大道四段161號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5329188,25.12527813 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局天母分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區中山北路7段194號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4970959,25.096437 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局福安分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區延平北路7段42-7號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5114613,25.0791803 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局社子分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區延平北路5段2-1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5181491,25.07022465 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局劍潭分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區承德路3段206號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5180797,25.0871842 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局後港分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區福港街153號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5168979,25.11792359 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局北投中隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區石牌路2段101號2樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5464323,25.15150944 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局陽明山分隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區勝利街1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5024718,25.1350969 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局光明分隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區光明路155號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.466727,25.1231528 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局關渡分隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區知行路345號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5169494,25.1179343 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局石牌分隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區石牌路2段101號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4931134,25.1456294 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局秀山分隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區秀山路50號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5113546,25.05024362 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局大同中隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區鄭州路109號8樓",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5184358,25.05479356 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局建成分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區承德路2段35號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.511386,25.0502549 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局延平分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區鄭州路109號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5181712,25.0702942 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局大同分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區重慶北路2段223號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5150319,25.05931324 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局大同分局",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區錦西街200號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5173413,25.0527248 ]
+    },
+    "properties": {
+    "LocationName":"建成派出所",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"建泰里承德路1段80號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.512054,25.0592239 ]
+    },
+    "properties": {
+    "LocationName":"民生西路派出所",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"延平里保安街47之1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5135534,25.0753508 ]
+    },
+    "properties": {
+    "LocationName":"重慶北路派出所",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"重慶北路3段320之2號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5150006,25.05950939 ]
+    },
+    "properties": {
+    "LocationName":"寧夏路派出所",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區雙連里錦西街200號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5136747,25.068637 ]
+    },
+    "properties": {
+    "LocationName":"民族路派出所",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"國慶里重慶北路3段168號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5330911,25.037826 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局大安分局",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區仁愛路3段2號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5388738,25.0111861 ]
+    },
+    "properties": {
+    "LocationName":"羅斯福路派出所",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區羅斯福路4段113巷13號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5518522,25.0179973 ]
+    },
+    "properties": {
+    "LocationName":"臥龍街派出所",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區臥龍街185號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5469076,25.0403716 ]
+    },
+    "properties": {
+    "LocationName":"敦化南路派出所",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區敦化南路1段236巷26號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5521904,25.0329786 ]
+    },
+    "properties": {
+    "LocationName":"安和路派出所",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區信義路4段216號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.545045,25.0311288 ]
+    },
+    "properties": {
+    "LocationName":"瑞安街派出所",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區瑞安街23巷17號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5305091,25.0266151 ]
+    },
+    "properties": {
+    "LocationName":"和平東路派出所",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區和平東路1段143號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5339848,25.0377484 ]
+    },
+    "properties": {
+    "LocationName":"新生南路派出所",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區仁愛路3段18號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5014312,25.1333442 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局北投分局",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區中央北路一段一號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515547,25.115382 ]
+    },
+    "properties": {
+    "LocationName":"永明派出所",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區石牌路2段10號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5402305,25.1674627 ]
+    },
+    "properties": {
+    "LocationName":"竹子湖派出所",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"竹仔湖路16號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5486058,25.1488485 ]
+    },
+    "properties": {
+    "LocationName":"公園派出所",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"紗帽路110號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4659472,25.1229971 ]
+    },
+    "properties": {
+    "LocationName":"關渡派出所",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"大度路3段305號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5124646,25.1099044 ]
+    },
+    "properties": {
+    "LocationName":"石牌派出所",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"文林北路296號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.508055,25.1276307 ]
+    },
+    "properties": {
+    "LocationName":"奇岩派出所",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"公館路209巷11號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4931182,25.1455767 ]
+    },
+    "properties": {
+    "LocationName":"大屯派出所",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"中和街534號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502551,25.137377 ]
+    },
+    "properties": {
+    "LocationName":"光明派出所",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"大業路735號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5948697,25.0540372 ]
+    },
+    "properties": {
+    "LocationName":"玉成派出所",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區向陽路150號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6225734,25.0385342 ]
+    },
+    "properties": {
+    "LocationName":"舊莊派出所",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區舊莊街1段213號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5856772,25.0461086 ]
+    },
+    "properties": {
+    "LocationName":"同德派出所",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區同德路83號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6071483,25.0549008 ]
+    },
+    "properties": {
+    "LocationName":"南港派出所",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區興中號12巷2號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5740483,25.06547825 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局內湖分局",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區民權東路六段一○一號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.618335,25.0704412 ]
+    },
+    "properties": {
+    "LocationName":"康樂派出所",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區樂康里康樂街110巷16弄20號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6129763,25.0674704 ]
+    },
+    "properties": {
+    "LocationName":"東湖派出所",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"五分里五分街10號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5811524,25.0747195 ]
+    },
+    "properties": {
+    "LocationName":"文德派出所",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"瑞光里文德路22巷120號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5833333,25.0666667 ]
+    },
+    "properties": {
+    "LocationName":"大湖派出所",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"大明里成功路5段一1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5768044,25.0788262 ]
+    },
+    "properties": {
+    "LocationName":"西湖派出所",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"港墘里內湖路1段550號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5816447,25.0552622 ]
+    },
+    "properties": {
+    "LocationName":"潭美派出所",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"週美里新明路324號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5895926,25.0816366 ]
+    },
+    "properties": {
+    "LocationName":"內湖派出所",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"內湖里內湖路2段342號之1",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5975269,25.0812482 ]
+    },
+    "properties": {
+    "LocationName":"康寧派出所",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"清白里金湖路83號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5028876,25.04512604 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局萬華分局",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區康定路22號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5021291,25.0219029 ]
+    },
+    "properties": {
+    "LocationName":"青年路派出所",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"萬大路423巷112號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4982367,25.0223907 ]
+    },
+    "properties": {
+    "LocationName":"東園街派出所",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"長泰街130號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4956315,25.0281128 ]
+    },
+    "properties": {
+    "LocationName":"西園路派出所",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"東園街17號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5027293,25.0311005 ]
+    },
+    "properties": {
+    "LocationName":"莒光派出所",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"莒光路171號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4931822,25.0342898 ]
+    },
+    "properties": {
+    "LocationName":"華江派出所",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"環河南路2段196號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4951115,25.0329386 ]
+    },
+    "properties": {
+    "LocationName":"大理街派出所",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"糖廓里大理街99號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5004896,25.035091 ]
+    },
+    "properties": {
+    "LocationName":"康定路派出所",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"和平西路3段112號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4996979,25.0386112 ]
+    },
+    "properties": {
+    "LocationName":"龍山派出所",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區桂林路135號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5550639,25.0236528 ]
+    },
+    "properties": {
+    "LocationName":"六張犁派出所",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區嘉興街301號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5639282,25.0265855 ]
+    },
+    "properties": {
+    "LocationName":"吳興街派出所",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區吳興街262號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5761485,25.03855949 ]
+    },
+    "properties": {
+    "LocationName":"福德街派出所",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松德路66號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5758445,25.045663 ]
+    },
+    "properties": {
+    "LocationName":"五分埔派出所",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區永吉路333號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5680334,25.0331408 ]
+    },
+    "properties": {
+    "LocationName":"三張犁派出所",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區信義路5段17號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5115869,25.0417679 ]
+    },
+    "properties": {
+    "LocationName":"博愛路派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"博愛路119號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5139746,25.0320412 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局中正第二分局",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區南海路35號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5139746,25.0320412 ]
+    },
+    "properties": {
+    "LocationName":"南海路派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"南海路35號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5320722,25.0151555 ]
+    },
+    "properties": {
+    "LocationName":"思源街派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區汀州路3段72號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5165628,25.0323407 ]
+    },
+    "properties": {
+    "LocationName":"南昌路派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"南昌路1段7號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5121277,25.0242957 ]
+    },
+    "properties": {
+    "LocationName":"泉州街派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"中華路2段503號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5177062,25.0258774 ]
+    },
+    "properties": {
+    "LocationName":"廈門街派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"廈門街43號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5635377,24.9887827 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局文山第一分局",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區木柵路2段202號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5673089,24.98249446 ]
+    },
+    "properties": {
+    "LocationName":"木新派出所",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區恆光街45號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5779437,24.9872853 ]
+    },
+    "properties": {
+    "LocationName":"指南派出所",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區指南路2段177號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5668969,25.0022655 ]
+    },
+    "properties": {
+    "LocationName":"萬芳派出所",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區萬美街1段50號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5470169,24.9867694 ]
+    },
+    "properties": {
+    "LocationName":"復興派出所",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區木柵路1段54號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5635377,24.9887827 ]
+    },
+    "properties": {
+    "LocationName":"木柵派出所",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區木柵路2段202號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5410406,24.9928142 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局文山第二分局",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區景中街二號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5389083,25.003904 ]
+    },
+    "properties": {
+    "LocationName":"萬盛派出所",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"萬祥里羅斯福路5段151號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5410406,24.9928142 ]
+    },
+    "properties": {
+    "LocationName":"景美派出所",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"景中街2號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5511861,25.0015151 ]
+    },
+    "properties": {
+    "LocationName":"興隆派出所",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"興隆路2段156號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.535104,25.0681 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局建國分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區民族東路282號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5866978,25.0479032 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局成德分隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區東新街63巷11號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4957511,25.02847626 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局雙園分隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區西藏路213-1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529754,25.06859313 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局圓山分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區民族東路41號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5521068,25.0329735 ]
+    },
+    "properties": {
+    "LocationName":"大安分局警備隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區信義路4段216號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"忠孝西路派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區公園路15號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"忠孝東路派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區忠孝東路2段10號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"仁愛路派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區仁愛路一段19號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"介壽路派出所",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區公園路54號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"中正第一分局",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區公園路15號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5771713,25.04985353 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局松山分局松山派出所",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區八德路4段692號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5525693,25.05135661 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局松山分局中崙派出所",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區南京東路4段12號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5628041,25.059149 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局松山分局三民派出所",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區民生東路5段163-1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5514129,25.05674157 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局松山分局東社派出所",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區敦化北路199巷5-1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5480773,25.06176634 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局松山分局民有派出所",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區民權東路3段162號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5525693,25.05135661 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府警察局松山分局警備隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區南京東路4段12號",
+    "單位":"分局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"中山一派出所",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區中山北路1段110號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"中山二派出所",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區中山北路2段90號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"圓山派出所",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區中山北路3段62號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"長春路派出所",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區長春路206號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"長安東路派出所",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區長安東路2段165號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"民權一派出所",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區新生北路2段127-1號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 0,0 ]
+    },
+    "properties": {
+    "LocationName":"大直派出所",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區北安路456號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5374343,25.01218342 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局古亭分隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區基隆路四段156號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.529754,25.06859313 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局 圓山分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"民族東路41號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520955,25.0471975 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局 華山分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"北平東路1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5634074,24.98887264 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局木柵分隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區木柵路二段200號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5687642,25.04074072 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松仁路1號3樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5162936,25.02587929 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區汀州路2段67號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520955,25.0471975 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊中正中隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區北平東路1號2樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520955,25.0471975 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊中正中隊華山分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區北平東路1號1樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.520955,25.0471975 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊中正中隊西門分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區北平東路1號1樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5162936,25.02587929 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊中正中隊泉州分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區汀州路2段67號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5205882,25.02901017 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊中正中隊古亭分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區基隆路4段156號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5012493,25.04433936 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊中正中隊城中分隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區成都路175號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4961071,25.02907165 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊萬華中隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區西藏路452號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4981676,25.02252908 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊萬華中隊雙園一分隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區東園街201號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5108836,25.04426293 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊萬華中隊雙園二分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區汀洲路1段臨49號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5003143,25.03508841 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊萬華中隊龍山一分隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區和平西路3段116號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4968562,25.03860108 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊萬華中隊龍山二分隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區桂林路165號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.48861,25.03163078 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊第一特種中隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區長順街60巷5號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.48861,25.03163078 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊第一特種中隊雙園救生分隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區長順街60巷5號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5548611,24.98000581 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊文山中隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區樟新街2號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5411941,24.99228932 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊文山中隊景美分隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區景文街30號4樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5634074,24.98887264 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第一大隊文山中隊木柵分隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區木柵路2段200號3樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5135165,25.04695888 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊中正中隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區忠孝西路1段86號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5135165,25.04695888 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊中正中隊中正一分隊",
+    "cityName":"臺北市",
+    "townName":"中正區",
+    "address":"臺北市中正區忠孝西路1段86號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4968562,25.03860108 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊萬華中隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區桂林路165號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4968562,25.03860108 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊萬華中隊萬華一分隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區桂林路165號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5548611,24.98000581 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊文山中隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區樟新街2號4樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5548611,24.98000581 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊文山中隊文山一分隊",
+    "cityName":"臺北市",
+    "townName":"文山區",
+    "address":"臺北市文山區樟新街2號4樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6153619,25.0450851 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區研究院路2段86號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5277909,25.03264209 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊大安中隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區愛國東路79巷13號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5277909,25.03264209 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊大安中隊金華分隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區愛國東路79巷13號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5522462,25.03287725 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊大安中隊安和分隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區安和路2段2號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5875082,25.03654446 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊信義中隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區福德街251巷33號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5692928,25.04551023 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊信義中隊信義分隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區永吉路48號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5875082,25.03654446 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊信義中隊莊敬分隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區福德街251巷33號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6153619,25.0450851 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊南港中隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區研究院路2段86號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6153619,25.0450851 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊南港中隊南港分隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區研究院路2段86號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.612171,25.0607543 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊第二特種中隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區重陽路509號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.612171,25.0607543 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第二大隊第二特種中隊南港潛水分隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區重陽路509號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5277909,25.03264209 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊大安中隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區愛國東路79巷13號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5277909,25.03264209 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊大安中隊大安一分隊",
+    "cityName":"臺北市",
+    "townName":"大安區",
+    "address":"臺北市大安區愛國東路79巷13號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5687642,25.04074072 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊信義中隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松仁路1號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5687642,25.04074072 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊信義中隊信義一分隊",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松仁路1號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6153619,25.0450851 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊南港中隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區研究院路2段86號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6153619,25.0450851 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊南港中隊南港一分隊",
+    "cityName":"臺北市",
+    "townName":"南港區",
+    "address":"臺北市南港區研究院路2段86號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.536424,25.05350587 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區建國北路2段39號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5566498,25.08012328 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊中山中隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區樂群二路143號2樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5272724,25.05989825 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊中山中隊圓山分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區新生北路2段(臨)102號之1",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5566498,25.08012328 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊中山中隊大直分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區樂群二路143號2樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5895058,25.08169126 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊內湖中隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區內湖路2段340號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5895058,25.08169126 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊內湖中隊內湖分隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區內湖路2段340號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5395923,25.07324521 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊第三特種中山中隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區濱江街199巷12號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5765407,25.06620567 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊第三特種內湖中隊內湖救生分隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區民權東路6段10號之5",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.57712,25.04985315 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊松山中隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區八德路4段690號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5629929,25.04859699 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊松山中隊八德分隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區八德路4段162號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.57712,25.04985315 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊松山中隊中崙分隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區八德路4段690號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5782303,25.06690993 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊第三特種內湖中隊民權救援分隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區民權東路6段9號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5395923,25.07324521 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊第三特種中山中隊圓山救難分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區濱江街199巷12號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.536424,25.05350587 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊第三特種中山中隊松江救生分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區建國北路2段39號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5566498,25.08012328 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊中山中隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區樂群二路143號5樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5566498,25.08012328 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊中山中隊中山一分隊",
+    "cityName":"臺北市",
+    "townName":"中山區",
+    "address":"臺北市中山區樂群二路143號5樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5903045,25.06974825 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊內湖中隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區成功路2段378號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5903045,25.06974825 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊內湖中隊內湖一分隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區成功路2段378號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5629929,25.04859699 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊松山中隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區八德路4段162號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5629929,25.04859699 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊松山中隊松山一分隊",
+    "cityName":"臺北市",
+    "townName":"松山區",
+    "address":"臺北市松山區八德路4段162號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5180443,25.08738934 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區福港街153號4樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5072145,25.05388818 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊大同中隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區環河北路1段109之1號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5176029,25.05661093 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊大同中隊建成分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區承德路2段35號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5091526,25.06047478 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊大同中隊延平一分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區涼州街114號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5072145,25.05388818 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊大同中隊延平二分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區環河北路1段109之1號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5164411,25.06870227 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊大同中隊大同一分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區民族西路139號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5148469,25.06278533 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊大同中隊大同二分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區民權西路188號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5128349,25.07645157 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊大同中隊大同三分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區敦煌路160之1號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5180443,25.08738934 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊士林中隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區福港街153號4樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5180443,25.08738934 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊士林中隊劍潭分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區福港街153號4樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5096455,25.08632314 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊士林中隊社子分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區中正路614號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5019239,25.13511293 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊北投中隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區光明路155號2樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5019239,25.13511293 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊北投中隊光明分隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區光明路155號2樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.516916,25.11794308 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊北投中隊石牌分隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區石牌路2段101號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5083147,25.08650955 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊第四特種中隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區中正路632之2號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5083147,25.08650955 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第四大隊第四特種中隊福安水上分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區中正路632之2號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5137481,25.06147043 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊大同中隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區重慶北路2段223號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5137481,25.06147043 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊大同中隊大同一分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區重慶北路2段223號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5278745,25.09009594 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊士林中隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區中山北路5段376號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5278745,25.09009594 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊士林中隊士林一分隊",
+    "cityName":"臺北市",
+    "townName":"士林區",
+    "address":"臺北市士林區中山北路5段376號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5019239,25.13511293 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊北投中隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區光明路155號2樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5019239,25.13511293 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊北投中隊北投一分隊",
+    "cityName":"臺北市",
+    "townName":"北投區",
+    "address":"臺北市北投區光明路155號2樓",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.589771,25.08175232 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊防宣大隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區內湖路2段346號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4993209,25.03858897 ]
+    },
+    "properties": {
+    "LocationName":"台北市政府消防局龍山分隊",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區桂林路137號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5687642,25.04074072 ]
+    },
+    "properties": {
+    "LocationName":"臺北市政府消防局災害搶救科",
+    "cityName":"臺北市",
+    "townName":"信義區",
+    "address":"臺北市信義區松仁路1號",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5782303,25.06690993 ]
+    },
+    "properties": {
+    "LocationName":"義勇消防總隊第三大隊第三特種內湖中隊",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區民權東路6段9號",
+    "單位":"義勇消防"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5130417,25.06342433 ]
+    },
+    "properties": {
+    "LocationName":"消防局大同分隊",
+    "cityName":"臺北市",
+    "townName":"大同區",
+    "address":"臺北市大同區",
+    "單位":"消防局"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.502801,25.04517707 ]
+    },
+    "properties": {
+    "LocationName":"西門町派出所",
+    "cityName":"臺北市",
+    "townName":"萬華區",
+    "address":"臺北市萬華區萬壽里13鄰康定路22號",
+    "單位":"派出所"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.591323,25.066279 ]
+    },
+    "properties": {
+    "LocationName":"交通部高速公路局北區養護工程分局",
+    "cityName":"臺北市",
+    "townName":"內湖區",
+    "address":"臺北市內湖區成功路2段193巷12號",
+    "單位":"分局"
+    }
+  }
+]
+}

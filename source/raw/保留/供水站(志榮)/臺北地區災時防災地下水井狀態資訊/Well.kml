@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Schema name="防災水井" id="防災水井">
+    <SimpleField name="項次編號" type="string"></SimpleField>
+    <SimpleField name="狀態" type="string"></SimpleField>
+    <SimpleField name="行政區" type="string"></SimpleField>
+    <SimpleField name="設置地點" type="string"></SimpleField>
+    <SimpleField name="取水地址" type="string"></SimpleField>
+    <SimpleField name="電話" type="string"></SimpleField>
+    <SimpleField name="預定關閉時間" type="string"></SimpleField>
+    <SimpleField name="備註" type="string"></SimpleField>
+</Schema><Folder>
+<Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">1</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大同區</SimpleData>
+        <SimpleData name="設置地點">臺北市大同區西寧北路32號</SimpleData>
+        <SimpleData name="取水地址">忠孝國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50837,25.051881</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">2</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="設置地點">臺北市中山區林森北路511號</SimpleData>
+        <SimpleData name="取水地址">新興國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52688,25.062268</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">3</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="設置地點">臺北市士林區大東路165號</SimpleData>
+        <SimpleData name="取水地址">士林國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52419,25.092115</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">4</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="設置地點">臺北市士林區延平北路六段308號</SimpleData>
+        <SimpleData name="取水地址">社子國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50366,25.089984</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">5</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="設置地點">臺北市中山區民權東路一段69號</SimpleData>
+        <SimpleData name="取水地址">中山國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52707,25.063030</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">6</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="設置地點">臺北市中山區復興北路430巷1號</SimpleData>
+        <SimpleData name="取水地址">五常國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54300,25.064204</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">7</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="設置地點">臺北市中山區新庄里新生北路三段105號</SimpleData>
+        <SimpleData name="取水地址">新生公園(1)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52930,25.070722</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">8</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="設置地點">臺北市中山區新庄里新生北路三段105號</SimpleData>
+        <SimpleData name="取水地址">新生公園(2)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53292,25.069521</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">9</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="設置地點">臺北市中山區行仁里民權東路三段1號</SimpleData>
+        <SimpleData name="取水地址">榮星花園公園(1)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53741,25.063048</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">10</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="設置地點">臺北市中山區行仁里民權東路三段1號</SimpleData>
+        <SimpleData name="取水地址">榮星花園公園(2)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53856,25.062656</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">11</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="設置地點">臺北市士林區福林里福林路60號</SimpleData>
+        <SimpleData name="取水地址">士林官邸公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53126,25.091375</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">12</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="設置地點">臺北市北投區承德路七段378號</SimpleData>
+        <SimpleData name="取水地址">立農公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50358,25.118212</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">13</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大同區</SimpleData>
+        <SimpleData name="設置地點">臺北市大同區光能里承德路二段35號旁</SimpleData>
+        <SimpleData name="取水地址">建成公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51871,25.054748</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">14</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大同區</SimpleData>
+        <SimpleData name="設置地點">臺北市大同區老師里延平北路四段189號對面</SimpleData>
+        <SimpleData name="取水地址">迪化公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51139,25.075078</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">15</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="設置地點">臺北市士林區天母東路69巷與中山北路七段14巷口</SimpleData>
+        <SimpleData name="取水地址">東和公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53348,25.120574</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">16</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="設置地點">臺北市北投區中央北路一段73號</SimpleData>
+        <SimpleData name="取水地址">北投國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.49900,25.134173</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">17</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="設置地點">臺北市北投區中央北路四段48號</SimpleData>
+        <SimpleData name="取水地址">桃源國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.47696,25.134509</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">18</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="設置地點">臺北市北投區新民路2號</SimpleData>
+        <SimpleData name="取水地址">逸仙國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50536,25.138039</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">19</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="設置地點">臺北市北投區新民路10號</SimpleData>
+        <SimpleData name="取水地址">新民國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50668,25.139008</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">20</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="設置地點">臺北市士林區福志路75號</SimpleData>
+        <SimpleData name="取水地址">福林國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53051,25.098619</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">21</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="設置地點">臺北市士林區至善路二段360號</SimpleData>
+        <SimpleData name="取水地址">至善國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.55677,25.104312</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">22</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大同區</SimpleData>
+        <SimpleData name="設置地點">台北市大同區保安里承德路三段336號</SimpleData>
+        <SimpleData name="取水地址">明倫高中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51985,25.076618</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">23</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="設置地點">臺北市萬華區南寧路46號</SimpleData>
+        <SimpleData name="取水地址">龍山國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50601,25.035730</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">24</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="設置地點">臺北市萬華區莒光路315號</SimpleData>
+        <SimpleData name="取水地址">雙園國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.49829,25.029787</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">25</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中正區</SimpleData>
+        <SimpleData name="設置地點">臺北市中正區公園路29號</SimpleData>
+        <SimpleData name="取水地址">北市大附小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51663,25.036654</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">26</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中正區</SimpleData>
+        <SimpleData name="設置地點">臺北市中正區中華路二段307巷17號</SimpleData>
+        <SimpleData name="取水地址">忠義國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50617,25.029845</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">27</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中正區</SimpleData>
+        <SimpleData name="設置地點">臺北市中正區汀州路三段4號</SimpleData>
+        <SimpleData name="取水地址">螢橋國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52482,25.018423</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">28</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="設置地點">台北市萬華區西藏路213號</SimpleData>
+        <SimpleData name="取水地址">華江高中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.49812,25.028672</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">29</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中正區</SimpleData>
+        <SimpleData name="設置地點">臺北市中正區黎明里凱達格蘭大道3號</SimpleData>
+        <SimpleData name="取水地址">二二八和平公園(1)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51417,25.040242</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">30</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中正區</SimpleData>
+        <SimpleData name="設置地點">臺北市中正區黎明里凱達格蘭大道3號</SimpleData>
+        <SimpleData name="取水地址">二二八和平公園(2)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51418,25.043024</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">31</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="設置地點">臺北市萬華區騰雲里水源路199號</SimpleData>
+        <SimpleData name="取水地址">青年公園(1)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50301,25.023369</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">32</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="設置地點">臺北市萬華區騰雲里水源路199號</SimpleData>
+        <SimpleData name="取水地址">青年公園(2)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50446,25.025220</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">33</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="設置地點">臺北市萬華區騰雲里水源路199號</SimpleData>
+        <SimpleData name="取水地址">青年公園(3)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50599,25.025583</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">34</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">文山區</SimpleData>
+        <SimpleData name="設置地點">臺北市文山區興隆路一段184巷與景明街29巷交叉口</SimpleData>
+        <SimpleData name="取水地址">萬有公園2號</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54208,25.000448</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">35</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">文山區</SimpleData>
+        <SimpleData name="設置地點">臺北市文山區景華里景興路與景華街交义口</SimpleData>
+        <SimpleData name="取水地址">景華公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54322,24.995948</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">36</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">文山區</SimpleData>
+        <SimpleData name="設置地點">臺北市文山區木新里木柵路三段220號旁</SimpleData>
+        <SimpleData name="取水地址">文山公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.57049,24.989287</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">37</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="設置地點">臺北市大安區羅斯福路四段113巷13號</SimpleData>
+        <SimpleData name="取水地址">民族國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53823,25.010551</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">38</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">文山區</SimpleData>
+        <SimpleData name="設置地點">臺北市文山區景華街150巷21號</SimpleData>
+        <SimpleData name="取水地址">景興國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54825,24.996275</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">39</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="設置地點">臺北市大安區臥龍街129號</SimpleData>
+        <SimpleData name="取水地址">大安國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.55041,25.019039</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">40</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="設置地點">臺北市內湖區大湖山莊街170號</SimpleData>
+        <SimpleData name="取水地址">大湖國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.60119,25.087458</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">41</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="設置地點">臺北市內湖區星雲街121號</SimpleData>
+        <SimpleData name="取水地址">康寧國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.59436,25.079785</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">42</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="設置地點">臺北市內湖區金龍路100號</SimpleData>
+        <SimpleData name="取水地址">碧湖國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.59077,25.085292</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">43</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="設置地點">臺北市內湖區港華街100號</SimpleData>
+        <SimpleData name="取水地址">麗山國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.57200,25.083805</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">44</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="設置地點">臺北市南港區東新街65號</SimpleData>
+        <SimpleData name="取水地址">成德國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.58742,25.047849</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">45</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="設置地點">臺北市南港區東新街108巷23號</SimpleData>
+        <SimpleData name="取水地址">成德國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.58807,25.045827</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">46</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="設置地點">臺北市松山區八德路四段101號</SimpleData>
+        <SimpleData name="取水地址">中崙高中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.56238,25.050206</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">47</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="設置地點">臺北市大安區仁愛路3段22號</SimpleData>
+        <SimpleData name="取水地址">幸安國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53555,25.036319</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">48</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="設置地點">臺北市內湖區金湖路363巷8號</SimpleData>
+        <SimpleData name="取水地址">石潭136地號</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.59965,25.072774</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">49</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="設置地點">臺北市松山區南京東路三段300號</SimpleData>
+        <SimpleData name="取水地址">敦化國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54635,25.051530</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">50</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">文山區</SimpleData>
+        <SimpleData name="設置地點">臺北市文山區溪洲街137巷</SimpleData>
+        <SimpleData name="取水地址">萬和公園1號</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53618,25.000250</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">51</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="設置地點">臺北市大安區建國南路二段269號</SimpleData>
+        <SimpleData name="取水地址">龍門國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53921,25.024717</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">52</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="設置地點">臺北市大安區龍門里新生南路以東、信義路三段以南</SimpleData>
+        <SimpleData name="取水地址">大安森林公園(1)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53535,25.029403</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">53</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大同區</SimpleData>
+        <SimpleData name="設置地點">臺北市大同區玉泉里西寜北路28號</SimpleData>
+        <SimpleData name="取水地址">玉泉公園(1)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50760,25.049138</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">54</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大同區</SimpleData>
+        <SimpleData name="設置地點">臺北市大同區玉泉里西寜北路28號</SimpleData>
+        <SimpleData name="取水地址">玉泉公園(2)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50663,25.049209</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">55</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="設置地點">臺北市松山區東榮里民權東路四段、民權國小附近</SimpleData>
+        <SimpleData name="取水地址">民權公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.55722,25.061602</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">56</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="設置地點">臺北市內湖區秀湖里成功路五段31號旁</SimpleData>
+        <SimpleData name="取水地址">大湖公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.60490,25.082672</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">57</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="設置地點">臺北市南港區成福里東新街170-1號</SimpleData>
+        <SimpleData name="取水地址">南港公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.59187,25.045395</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">58</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">信義區</SimpleData>
+        <SimpleData name="設置地點">臺北市信義區安康里松德路180巷興雅國中西側</SimpleData>
+        <SimpleData name="取水地址">松德公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.57294,25.035544</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">59</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="設置地點">臺北市內湖區舊宗路二段2號</SimpleData>
+        <SimpleData name="取水地址">內湖運動公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.57457,25.066397</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">60</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中正區</SimpleData>
+        <SimpleData name="設置地點">台北市中正區汀州路三段2號</SimpleData>
+        <SimpleData name="取水地址">客家文化主題公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.52435,25.019177</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">61</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="設置地點">臺北市松山區民權東路五段1號</SimpleData>
+        <SimpleData name="取水地址">三民國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.56449,25.063892</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">62</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="設置地點">臺北市松山區敦化北路199巷18號</SimpleData>
+        <SimpleData name="取水地址">民生國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.55152,25.056536</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">63</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="設置地點">臺北市南港區重陽路366號</SimpleData>
+        <SimpleData name="取水地址">育成高中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.60984,25.057902</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">64</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="設置地點">臺北市南港區惠民街67號</SimpleData>
+        <SimpleData name="取水地址">南港國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.61037,25.056584</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">65</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="設置地點">臺北市南港區向陽路21號</SimpleData>
+        <SimpleData name="取水地址">南港高中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.59284,25.052943</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">66</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="設置地點">臺北市松山區新東里新東街30巷1號</SimpleData>
+        <SimpleData name="取水地址">民生國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.56631,25.059748</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">67</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="設置地點">環河北路三段及葫蘆街交叉</SimpleData>
+        <SimpleData name="取水地址">海光公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50763,25.082380</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">68</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">信義區</SimpleData>
+        <SimpleData name="設置地點">臺北市信義區松仁路158巷1號</SimpleData>
+        <SimpleData name="取水地址">信義國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.56803,25.030312</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">69</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="設置地點">台北市松山區興安街174巷3弄</SimpleData>
+        <SimpleData name="取水地址">松基公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.54539,25.055501</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">70</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="設置地點">臺北市南港區向陽路31號</SimpleData>
+        <SimpleData name="取水地址">玉成國小</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.59270,25.054124</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">71</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="設置地點">臺北市大安區龍門里新生南路以東、信義路三段以南</SimpleData>
+        <SimpleData name="取水地址">大安森林公園(2)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53488,25.032673</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">72</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="設置地點">臺北市士林區忠誠路二段51號</SimpleData>
+        <SimpleData name="取水地址">蘭雅國中</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53084,25.109863</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">73</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">信義區</SimpleData>
+        <SimpleData name="設置地點">臺北市信義區信安街67巷旁</SimpleData>
+        <SimpleData name="取水地址">景勤2號公園</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.55823,25.026188</coordinates></Point> 
+</Placemark>
+ <Placemark><name>防災水井</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#防災水井">
+        <SimpleData name="項次編號">74</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="設置地點">臺北市萬華區騰雲里水源路199號</SimpleData>
+        <SimpleData name="取水地址">青年公園(4)</SimpleData>
+        <SimpleData name="電話">(02)87335615</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50478,25.020753</coordinates></Point> 
+</Placemark>
+ </Folder></Document></kml>

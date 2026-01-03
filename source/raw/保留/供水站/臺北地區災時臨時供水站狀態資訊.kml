@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Schema name="臨時供水站" id="臨時供水站">
+    <SimpleField name="項次編號" type="string"></SimpleField>
+    <SimpleField name="狀態" type="string"></SimpleField>
+    <SimpleField name="行政區" type="string"></SimpleField>
+    <SimpleField name="臨時供水站地點" type="string"></SimpleField>
+    <SimpleField name="電話" type="string"></SimpleField>
+    <SimpleField name="預定關閉時間" type="string"></SimpleField>
+    <SimpleField name="備註" type="string"></SimpleField>
+</Schema><Folder>
+<Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">1</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">信義區</SimpleData>
+        <SimpleData name="臨時供水站地點">信義區公所(臺北市信義區福德街86號)</SimpleData>
+        <SimpleData name="電話">(02)87703362</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.58217,25.037850</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">2</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="臨時供水站地點">中山區公所(臺北市松江路367號)</SimpleData>
+        <SimpleData name="電話">(02)87703362</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53362,25.064348</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">3</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中山區</SimpleData>
+        <SimpleData name="臨時供水站地點">通北加壓站(臺北市通北街97號對面)</SimpleData>
+        <SimpleData name="電話">(02)87703362</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53829,25.083144</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">4</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="臨時供水站地點">南港區公所(臺北市南港路1段360號)</SimpleData>
+        <SimpleData name="電話">(02)87703032</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.60696,25.054446</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">5</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">南港區</SimpleData>
+        <SimpleData name="臨時供水站地點">汐止宜興街橋頭(臺北市舊莊街1段145巷與大坑溪交口舊莊公園)</SimpleData>
+        <SimpleData name="電話">(02)87703362</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.62065,25.041128</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">6</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">松山區</SimpleData>
+        <SimpleData name="臨時供水站地點">松山區公所(臺北市八德路四段692號)</SimpleData>
+        <SimpleData name="電話">(02)87703362</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.57729,25.049935</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">7</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">內湖區</SimpleData>
+        <SimpleData name="臨時供水站地點">內湖區公所(臺北市民權東路6段99號)</SimpleData>
+        <SimpleData name="電話">(02)87703361</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.58909,25.069338</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">8</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">中正區</SimpleData>
+        <SimpleData name="臨時供水站地點">中正區公所(臺北市羅斯福路1段8號)</SimpleData>
+        <SimpleData name="電話">(02)33431676</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.51837,25.032220</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">9</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">萬華區</SimpleData>
+        <SimpleData name="臨時供水站地點">萬華區公所(臺北市和平西路3段120號)</SimpleData>
+        <SimpleData name="電話">(02)33431689</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.49987,25.035002</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">10</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">文山區</SimpleData>
+        <SimpleData name="臨時供水站地點">文山區公所(臺北市文山區木柵路3段220號)</SimpleData>
+        <SimpleData name="電話">(02)83695136</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.57013,24.989659</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">11</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">大安區</SimpleData>
+        <SimpleData name="臨時供水站地點">大安區公所(臺北市大安區新生南路2段86號)</SimpleData>
+        <SimpleData name="電話">(02)83695115</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.53487,25.026400</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">12</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="臨時供水站地點">臺北市北投區清江路169號媽祖廟前</SimpleData>
+        <SimpleData name="電話">(02)28882131</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50199,25.128259</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">13</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="臨時供水站地點">臺北市北投區稻香路81號頂好超市前</SimpleData>
+        <SimpleData name="電話">(02)28882131</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.48974,25.140986</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">14</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">北投區</SimpleData>
+        <SimpleData name="臨時供水站地點">臺北市北投區新民路22巷口中心新村</SimpleData>
+        <SimpleData name="電話">(02)28882131</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50744,25.139164</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">15</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">士林區</SimpleData>
+        <SimpleData name="臨時供水站地點">雙溪國小大門旁(臺北市士林區中社路2段46巷口)</SimpleData>
+        <SimpleData name="電話">(02)28882131</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.56279,25.106607</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">16</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市中和區</SimpleData>
+        <SimpleData name="臨時供水站地點">新北市中和區興南路2段399巷2號旁</SimpleData>
+        <SimpleData name="電話">(02)33431676</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.49856,24.979567</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">17</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市中和區</SimpleData>
+        <SimpleData name="臨時供水站地點">新北市中和區華新街109巷15號前</SimpleData>
+        <SimpleData name="電話">(02)33431676</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.50897,24.980934</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">18</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市三重區</SimpleData>
+        <SimpleData name="臨時供水站地點">新北市三重區碧華公園(新北市三重區溪尾街303號對面)</SimpleData>
+        <SimpleData name="電話">(02)21004125</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.48747,25.083676</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">19</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市三重區</SimpleData>
+        <SimpleData name="臨時供水站地點">新北市三重區光興公園(新北市三重區正義南路62號)</SimpleData>
+        <SimpleData name="電話">(02)21004125</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.49887,25.059076</coordinates></Point> 
+</Placemark>
+ <Placemark><name>臨時供水站</name> 
+<ExtendedData>
+    <SchemaData schemaUrl="#臨時供水站">
+        <SimpleData name="項次編號">20</SimpleData>
+        <SimpleData name="狀態">未開設</SimpleData>
+        <SimpleData name="行政區">新北市新店區</SimpleData>
+        <SimpleData name="臨時供水站地點">新北市青潭國小(231新北市新店區北宜路二段80號)</SimpleData>
+        <SimpleData name="電話">(02)83695136</SimpleData>
+        <SimpleData name="預定關閉時間"></SimpleData>
+        <SimpleData name="備註"></SimpleData>
+     </SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>121.55229,24.953118</coordinates></Point> 
+</Placemark>
+ </Folder></Document></kml>
