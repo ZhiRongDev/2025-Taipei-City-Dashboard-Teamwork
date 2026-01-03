@@ -9,35 +9,41 @@ A comprehensive data visualization dashboard for analyzing disaster preparedness
 ## Features
 
 ### 📊 Overview Dashboard
+
 - Summary statistics for disaster resources across both cities
 - Interactive map showing regional AED distribution
 - Quick access to all analysis modules
 
 ### 🏥 AED Analysis
+
 - Regional AED distribution maps
 - Per capita AED service ratio
 - Spatial dispersion analysis
 - Comparison charts between districts
 
 ### 🏘️ Shelter Analysis
+
 - Disaster-specific shelter statistics (flood, earthquake, landslide, tsunami)
 - Regional distribution maps
 - Heatmap and radar chart visualizations
 - Detailed capacity analysis
 
 ### 🛡️ Air Raid Shelter Analysis
+
 - Capacity and area analysis
 - Per capita space allocation
 - Scatter plots showing capacity vs area
 - Resource adequacy grading
 
 ### 🗺️ Tourist Spot Analysis
+
 - Resources within 1km, 5km, and 10km of tourist attractions
 - Interactive map with adjustable radius
 - Comparative charts across different distances
 - Heatmap showing resource concentration
 
 ### 🔄 Taipei vs New Taipei Comparison
+
 - Side-by-side statistics comparison
 - Box plots for spatial dispersion
 - Population vs AED scatter analysis
@@ -112,16 +118,20 @@ All data is sourced from Taiwan government open data platforms:
 ## Analysis Methods
 
 ### Spatial Dispersion
+
 Two complementary methods:
+
 - **Euclidean Distance**: Average pairwise distance between facilities
 - **Spatial Entropy**: Grid-based randomness and uniformity measure
 
 ### Population Ratio
+
 - Facilities per 10,000 people
 - People/households served per facility
 - Resource adequacy grading
 
 ### Distance Analysis
+
 - Haversine distance calculation for tourist spots
 - 1km, 5km, and 10km radius resource counting
 
@@ -129,8 +139,8 @@ Two complementary methods:
 
 The dashboard uses MapBox GL for interactive maps. A token is pre-configured in the code. For production deployment, replace with your own token:
 
-```javascript
-mapboxgl.accessToken = 'YOUR_TOKEN_HERE'
+```
+VITE_MAPBOX_TOKEN = 'YOUR_TOKEN_HERE'
 ```
 
 Get a free token at: https://www.mapbox.com/
@@ -165,6 +175,7 @@ npm run build
 ```
 
 The build output is optimized for static hosting on platforms like:
+
 - GitHub Pages
 - Netlify
 - Vercel
