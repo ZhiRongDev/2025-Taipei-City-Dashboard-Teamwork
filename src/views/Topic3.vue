@@ -55,6 +55,12 @@
       <!-- Resource Overview -->
       <div class="card">
         <h3>各景點防災資源總覽</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #60a5fa;">數據分析：</strong>
+          此堆疊長條圖呈現各景點周邊的綜合防災資源配置。陽明公園、龍鳳谷、市立美術館等景點
+          在 1km 範圍內擁有較多 AED 與避難收容所，顯示這些高人流景點周邊的防災應變能力較強。
+          部分郊區景點如小油坑遊憩區資源相對稀少，需特別注意遊客安全管理。
+        </p>
         <apexchart
           type="bar"
           height="500"
@@ -67,6 +73,11 @@
       <div class="grid grid-2">
         <div class="card">
           <h3>AED 分布</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #60a5fa;">數據分析：</strong>
+            位於都會區的景點如陽明公園、市立美術館周邊 AED 配置密度較高（超過 150 台），
+            有助於緊急情況下的快速醫療救援。郊區景點則相對較少，建議加強行動 AED 設備配置。
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -77,6 +88,12 @@
 
         <div class="card">
           <h3>避難收容所分布</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #34d399;">數據分析：</strong>
+            陽明公園、龍鳳谷等景點周邊避難收容所數量較多（7-15 處），
+            能在災害發生時提供緊急庇護。部分景點如國立故宮博物院周邊收容所較少，
+            可能需要規劃額外的疏散路線與臨時收容方案。
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -89,6 +106,11 @@
       <!-- Radar Chart -->
       <div class="card">
         <h3>綜合防災資源雷達圖 (Top 10 景點)</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #fbbf24;">數據分析：</strong>
+          雷達圖呈現各景點在四類防災資源的綜合表現。面積越大表示該景點周邊資源越豐富。
+          陽明公園、龍鳳谷等景點在多項指標上表現均衡，具備較完善的防災應變能力。
+        </p>
         <apexchart
           type="radar"
           height="500"
@@ -183,6 +205,12 @@
       <!-- City-level Comparison -->
       <div class="card">
         <h3>縣市層級資源平均值比較</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #60a5fa;">數據分析：</strong>
+          比較台北市與新北市各景點周邊的平均資源配置。台北市景點多位於都會核心區，
+          周邊防災資源密度通常較高；新北市景點分布較廣，包含郊區與山區景點，
+          資源配置呈現較大差異性。
+        </p>
         <div class="grid grid-2">
           <apexchart
             type="bar"
@@ -200,6 +228,11 @@
       <!-- Resource Type Comparison -->
       <div class="card">
         <h3>各類型資源平均數量比較</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #34d399;">數據分析：</strong>
+          此圖呈現雙北景點在 AED、警消、防空疏散地點、避難收容所四類資源的平均配置比較。
+          可以觀察到不同資源類型在兩市的配置策略差異，作為未來資源優化配置的參考依據。
+        </p>
         <apexchart
           type="bar"
           height="400"
@@ -211,6 +244,12 @@
       <!-- Top Spots Comparison -->
       <div class="card">
         <h3>資源最豐富景點排名 (雙北 Top 15)</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #fbbf24;">數據分析：</strong>
+          此排名呈現雙北防災資源最豐富的前 15 個景點。位於都會核心區的景點
+          （如陽明公園、市立美術館）通常位居前列，反映這些高人流區域在防災資源配置上的優先性。
+          此排名可作為觀光安全管理與應變資源配置的重要參考。
+        </p>
         <apexchart
           type="bar"
           height="500"

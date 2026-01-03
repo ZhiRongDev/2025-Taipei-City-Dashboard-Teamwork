@@ -63,6 +63,21 @@
       <div class="grid grid-2">
         <div class="card">
           <h3>各行政區 {{ selectedResourceType }} 數量</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #60a5fa;">數據分析：</strong>
+            <span v-if="selectedResourceType === 'AED'">
+              大安區擁有最多 AED（327台），其次為中山區（306台）與中正區（274台），
+              這三區合計佔台北市 AED 總數約 35%，反映商業與行政中心的設備配置較為密集。
+            </span>
+            <span v-else-if="selectedResourceType === '避難收容所'">
+              文山區擁有最多避難收容所（52處），其次為士林區（40處）、北投區與內湖區（各37處），
+              這些區域面積較大，提供較多收容場所。
+            </span>
+            <span v-else>
+              各行政區資源數量分布反映當地人口密度與地理特性，
+              核心都會區域通常配置較多防災資源以因應高人口密度需求。
+            </span>
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -73,6 +88,11 @@
 
         <div class="card">
           <h3>人均資源比 (人口數/資源數)</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #34d399;">數據分析：</strong>
+            此指標數值越低代表每項資源服務的人數越少，資源配置相對充裕。
+            若數值過高，表示該區可能面臨資源不足的壓力，需要優先補強防災設施。
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -87,7 +107,9 @@
         <h3>離散度分析指標</h3>
         <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
           <strong style="color: #60a5fa;">平均兩兩距離 (Dispersion):</strong> 計算各設施間的歐氏距離平均，反映地理上分散程度。
+          數值越高表示設施分布越分散，覆蓋範圍越廣。<br>
           <strong style="color: #34d399;">空間熵 (Spatial Entropy):</strong> 透過網格分佈與資訊熵公式，分析設施分布的隨機性與集中性。
+          數值越高表示分布越均勻，越低則表示資源集中於特定區域。
         </p>
         <div class="grid grid-2">
           <apexchart
@@ -120,6 +142,17 @@
       <div class="grid grid-2">
         <div class="card">
           <h3>各行政區 {{ selectedResourceType }} 數量</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #60a5fa;">數據分析：</strong>
+            <span v-if="selectedResourceType === 'AED'">
+              板橋區擁有最多 AED（194台），其次為新莊區（165台）與新店區（119台），
+              這三區為新北市人口最密集區域，AED 配置密度較高以因應緊急醫療需求。
+            </span>
+            <span v-else>
+              資源數量與各區人口規模、都市發展程度密切相關，
+              人口密集的核心都會區域配置較多防災資源。
+            </span>
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -130,6 +163,11 @@
 
         <div class="card">
           <h3>人均資源比 (人口數/資源數)</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #34d399;">數據分析：</strong>
+            人均資源比反映每項資源需服務的平均人數。新北市因幅員廣闊、人口分散，
+            部分偏遠區域雖資源絕對數量較少，但人均比可能優於都會核心區。
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -144,7 +182,9 @@
         <h3>離散度分析指標</h3>
         <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
           <strong style="color: #60a5fa;">平均兩兩距離 (Dispersion):</strong> 計算各設施間的歐氏距離平均，反映地理上分散程度。
+          新北市因地理範圍較大，離散度指標通常高於台北市。<br>
           <strong style="color: #34d399;">空間熵 (Spatial Entropy):</strong> 透過網格分佈與資訊熵公式，分析設施分布的隨機性與集中性。
+          數值越高表示資源分布越均勻。
         </p>
         <div class="grid grid-2">
           <apexchart
@@ -170,6 +210,11 @@
       <!-- City-level Comparison -->
       <div class="card">
         <h3>縣市層級比較</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #60a5fa;">數據分析：</strong>
+          雙北在防災資源總量上各有特色。台北市雖然面積較小，但因都市密度高、商業活動集中，
+          人均資源配置相對較為充裕。新北市幅員廣闊，資源分布需兼顧都會核心與偏遠區域的平衡。
+        </p>
         <div class="grid grid-2">
           <apexchart
             type="bar"
@@ -189,6 +234,12 @@
       <!-- Side-by-side District Comparison -->
       <div class="card">
         <h3>行政區橫向比較 - 資源數量排名</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #fbbf24;">數據分析：</strong>
+          此圖呈現雙北資源數量前 20 名的行政區排名。台北市的大安區、中山區、中正區，
+          以及新北市的板橋區、新莊區、新店區等核心都會區通常位居前列，
+          反映這些區域在防災資源建設上的投入力度。
+        </p>
         <apexchart
           type="bar"
           height="500"
@@ -200,6 +251,12 @@
       <!-- Spatial Metrics Comparison -->
       <div class="card">
         <h3>離散度指標比較</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #34d399;">數據分析：</strong>
+          雷達圖呈現雙北在離散度、空間熵、人均資源比等多維度的比較。
+          台北市通常在人均指標上表現較優，新北市則在空間分散度上數值較高，
+          反映兩市在都市型態與資源配置策略上的差異。
+        </p>
         <div class="grid grid-2">
           <apexchart
             type="radar"

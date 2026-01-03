@@ -54,6 +54,11 @@
       <div class="grid grid-2">
         <div class="card">
           <h3>各行政區容納人數</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #60a5fa;">數據分析：</strong>大安區擁有最高的收容所總容納人數（51,676人），
+            其次為萬華區（50,966人）與中山區（42,741人），三者合計佔台北市總容量約一半，
+            反映這些區域收容所設施建設較為完善。
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -64,6 +69,11 @@
 
         <div class="card">
           <h3>每人可分配收容所面積</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #34d399;">數據分析：</strong>萬華區每人可分配面積最大（0.192 m²），
+            中山區次之（0.116 m²），顯示這些區域在收容空間配置上較為充裕。
+            文山區與松山區每人可分配面積較低（約 0.02-0.03 m²），可能存在收容空間不足的風險。
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -89,7 +99,13 @@
 
       <!-- Scatter Plot -->
       <div class="card">
-        <h3>容納人數 vs 每萬人可分配面積</h3>
+        <h3>人口壓力與收容資源配置效率分析</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; line-height: 1.8;">
+          此圖表呈現各行政區<strong>人口規模</strong>與<strong>人均收容資源</strong>的關係，用以檢視人口壓力是否影響資源配置效率。<br>
+          <strong>橫軸（人口數）</strong>：該區總人口數，反映該區的人口規模與壓力。<br>
+          <strong>縱軸（每萬人可分配面積）</strong>：標準化的人均收容空間指標，數值越高表示資源配置越充裕。<br>
+          <strong>分析重點</strong>：若圖中呈現「人口越多、每萬人可分配面積越低」的負相關趨勢，表示人口密集區可能面臨收容資源相對不足的問題；反之，若分散均勻則表示資源配置較為平衡。
+        </p>
         <apexchart
           type="scatter"
           height="450"
@@ -113,6 +129,11 @@
       <div class="grid grid-2">
         <div class="card">
           <h3>各行政區容納人數</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #60a5fa;">數據分析：</strong>板橋區擁有最高容納人數（31,478人），
+            其次為三重區（29,724人）、中和區（29,606人）與新莊區（29,020人），
+            四大人口密集區合計佔新北市總容量近三成，與人口分布高度相關。
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -123,6 +144,11 @@
 
         <div class="card">
           <h3>每人可分配收容所面積</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #34d399;">數據分析：</strong>新店區每人可分配面積最大（0.042 m²），
+            三重區、中和區與新莊區約在 0.03 m² 左右。板橋區雖容納人數最高，但每人可分配面積僅 0.024 m²，
+            顯示該區收容空間相對緊張。
+          </p>
           <apexchart
             type="bar"
             height="400"
@@ -148,7 +174,13 @@
 
       <!-- Scatter Plot -->
       <div class="card">
-        <h3>容納人數 vs 每萬人可分配面積</h3>
+        <h3>人口壓力與收容資源配置效率分析</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; line-height: 1.8;">
+          此圖表呈現各行政區<strong>人口規模</strong>與<strong>人均收容資源</strong>的關係，用以檢視人口壓力是否影響資源配置效率。<br>
+          <strong>橫軸（人口數）</strong>：該區總人口數，反映該區的人口規模與壓力。<br>
+          <strong>縱軸（每萬人可分配面積）</strong>：標準化的人均收容空間指標，數值越高表示資源配置越充裕。<br>
+          <strong>分析重點</strong>：若圖中呈現「人口越多、每萬人可分配面積越低」的負相關趨勢，表示人口密集區可能面臨收容資源相對不足的問題；反之，若分散均勻則表示資源配置較為平衡。
+        </p>
         <apexchart
           type="scatter"
           height="450"
@@ -165,6 +197,12 @@
       <!-- City-level Comparison -->
       <div class="card">
         <h3>縣市層級比較</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #60a5fa;">數據分析：</strong>台北市總容納人數約 28.9 萬人，總收容所面積約 246 萬 m²；
+          新北市總容納人數約 54.7 萬人，總收容所面積約 377 萬 m²。
+          雖然新北市的絕對數量較高，但考量人口基數（新北市人口約為台北市的 1.5 倍），
+          台北市在人均收容資源配置上相對優於新北市。
+        </p>
         <div class="grid grid-2">
           <apexchart
             type="bar"
@@ -184,6 +222,11 @@
       <!-- Combined Treemap -->
       <div class="card">
         <h3>雙北收容所面積分布總覽</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #fbbf24;">數據分析：</strong>矩形面積越大代表該區收容所總面積越大。
+          可見萬華區、大安區、士林區（台北市）以及板橋區、三重區、中和區（新北市）
+          為雙北收容所面積最大的區域，這些區域在災害發生時將扮演關鍵的收容樞紐角色。
+        </p>
         <apexchart
           type="treemap"
           height="600"
@@ -195,6 +238,12 @@
       <!-- District Ranking -->
       <div class="card">
         <h3>各行政區人均收容所面積排名 (Top 20)</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #34d399;">數據分析：</strong>新北市的雙溪區、平溪區、貢寮區等偏遠郊區位居前列（每萬人可分配面積超過 1,800 m²），
+          主要因為這些區域人口密度低、收容所相對充裕。台北市則以萬華區（1,917.59 m²）表現最佳，
+          其次為中山區、士林區、內湖區等，顯示都會區中也有資源配置較為充裕的區域。
+          這反映出人均指標受人口密度影響顯著，偏遠區域雖絕對資源量少，但人均配置反而較優。
+        </p>
         <apexchart
           type="bar"
           height="500"
@@ -334,8 +383,9 @@ export default {
     const taipeiScatterSeries = computed(() => [{
       name: '台北市各區',
       data: taipeiData.value.map(row => ({
-        x: row['容納人數'] || 0,
-        y: row['每萬人可分配收容所面積（平方公尺）'] || 0
+        x: row['人口數'] || 0,
+        y: row['每萬人可分配收容所面積（平方公尺）'] || 0,
+        districtName: row.Town
       }))
     }])
 
@@ -343,16 +393,49 @@ export default {
       chart: { type: 'scatter', background: 'transparent', toolbar: { show: true }, zoom: { enabled: true } },
       theme: { mode: 'dark' },
       xaxis: {
-        title: { text: '容納人數', style: { color: '#94a3b8' } },
-        labels: { style: { colors: '#94a3b8' } }
+        title: { text: '人口數', style: { color: '#94a3b8' } },
+        labels: {
+          style: { colors: '#94a3b8' },
+          formatter: function(val) {
+            return (val / 10000).toFixed(1) + '萬'
+          }
+        }
       },
       yaxis: {
         title: { text: '每萬人可分配面積 (m²)', style: { color: '#94a3b8' } },
         labels: { style: { colors: '#94a3b8' } }
       },
       colors: ['#60a5fa'],
-      markers: { size: 6 },
-      grid: { borderColor: '#334155', strokeDashArray: 3 }
+      markers: { size: 8 },
+      grid: { borderColor: '#334155', strokeDashArray: 3 },
+      dataLabels: {
+        enabled: true,
+        formatter: function(_val, opts) {
+          return opts.w.config.series[opts.seriesIndex].data[opts.dataPointIndex].districtName
+        },
+        style: {
+          fontSize: '11px',
+          colors: ['#e2e8f0']
+        },
+        background: {
+          enabled: true,
+          foreColor: '#1e293b',
+          borderRadius: 2,
+          padding: 4,
+          opacity: 0.8,
+          borderWidth: 0
+        }
+      },
+      tooltip: {
+        custom: function({ seriesIndex, dataPointIndex, w }) {
+          const data = w.config.series[seriesIndex].data[dataPointIndex]
+          return `<div style="padding: 8px; background: #1e293b; border: 1px solid #334155;">
+            <div style="color: #60a5fa; font-weight: bold; margin-bottom: 4px;">${data.districtName}</div>
+            <div style="color: #cbd5e1;">人口數: ${data.x.toLocaleString()}</div>
+            <div style="color: #cbd5e1;">每萬人可分配面積: ${data.y.toFixed(2)} m²</div>
+          </div>`
+        }
+      }
     }
 
     // New Taipei Charts
@@ -429,8 +512,9 @@ export default {
     const newtaipeiScatterSeries = computed(() => [{
       name: '新北市各區',
       data: newtaipeiData.value.map(row => ({
-        x: row['容納人數'] || 0,
-        y: row['每萬人可分配收容所面積（平方公尺）'] || 0
+        x: row['人口數'] || 0,
+        y: row['每萬人可分配收容所面積（平方公尺）'] || 0,
+        districtName: row.Town
       }))
     }])
 
@@ -438,16 +522,49 @@ export default {
       chart: { type: 'scatter', background: 'transparent', toolbar: { show: true }, zoom: { enabled: true } },
       theme: { mode: 'dark' },
       xaxis: {
-        title: { text: '容納人數', style: { color: '#94a3b8' } },
-        labels: { style: { colors: '#94a3b8' } }
+        title: { text: '人口數', style: { color: '#94a3b8' } },
+        labels: {
+          style: { colors: '#94a3b8' },
+          formatter: function(val) {
+            return (val / 10000).toFixed(1) + '萬'
+          }
+        }
       },
       yaxis: {
         title: { text: '每萬人可分配面積 (m²)', style: { color: '#94a3b8' } },
         labels: { style: { colors: '#94a3b8' } }
       },
       colors: ['#34d399'],
-      markers: { size: 6 },
-      grid: { borderColor: '#334155', strokeDashArray: 3 }
+      markers: { size: 8 },
+      grid: { borderColor: '#334155', strokeDashArray: 3 },
+      dataLabels: {
+        enabled: true,
+        formatter: function(_val, opts) {
+          return opts.w.config.series[opts.seriesIndex].data[opts.dataPointIndex].districtName
+        },
+        style: {
+          fontSize: '11px',
+          colors: ['#e2e8f0']
+        },
+        background: {
+          enabled: true,
+          foreColor: '#1e293b',
+          borderRadius: 2,
+          padding: 4,
+          opacity: 0.8,
+          borderWidth: 0
+        }
+      },
+      tooltip: {
+        custom: function({ seriesIndex, dataPointIndex, w }) {
+          const data = w.config.series[seriesIndex].data[dataPointIndex]
+          return `<div style="padding: 8px; background: #1e293b; border: 1px solid #334155;">
+            <div style="color: #34d399; font-weight: bold; margin-bottom: 4px;">${data.districtName}</div>
+            <div style="color: #cbd5e1;">人口數: ${data.x.toLocaleString()}</div>
+            <div style="color: #cbd5e1;">每萬人可分配面積: ${data.y.toFixed(2)} m²</div>
+          </div>`
+        }
+      }
     }
 
     // Comparison Charts
