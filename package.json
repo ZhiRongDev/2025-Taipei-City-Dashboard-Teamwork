@@ -1,0 +1,34 @@
+{
+  "name": "2025-taipei-city-dashboard-teamwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhiRongDev/2025-Taipei-City-Dashboard-Teamwork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhiRongDev/2025-Taipei-City-Dashboard-Teamwork/issues"
+  },
+  "homepage": "https://github.com/ZhiRongDev/2025-Taipei-City-Dashboard-Teamwork#readme",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.3",
+    "vite": "^7.3.0"
+  },
+  "dependencies": {
+    "apexcharts": "^5.3.6",
+    "mapbox-gl": "^3.17.0",
+    "papaparse": "^5.5.3",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4",
+    "vue3-apexcharts": "^1.10.0"
+  }
+}
