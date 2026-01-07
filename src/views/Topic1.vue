@@ -702,6 +702,23 @@ export default {
             data: geoData
           })
 
+          // Calculate max value for better color distribution
+          const maxResourceCount = Math.max(...resourceData.map(r => r.Count || 0))
+          let colorStops
+          if (maxResourceCount > 200) {
+            // For resources with very high counts (like 臺北市 AED: ~300)
+            colorStops = [0, '#1e293b', 50, '#2563eb', 100, '#3b82f6', 150, '#22c55e', 200, '#34d399', 250, '#fbbf24', 330, '#f59e0b']
+          } else if (maxResourceCount > 100) {
+            // For resources with high counts (like 新北市 AED: ~200)
+            colorStops = [0, '#1e293b', 20, '#1e3a5f', 50, '#2563eb', 80, '#3b82f6', 110, '#22c55e', 140, '#34d399', 170, '#fbbf24', 200, '#f59e0b']
+          } else if (maxResourceCount > 50) {
+            // For resources with medium counts (50-100)
+            colorStops = [0, '#1e293b', 10, '#1e3a5f', 20, '#2563eb', 35, '#3b82f6', 50, '#22c55e', 65, '#34d399', 80, '#fbbf24', 100, '#f59e0b']
+          } else {
+            // For resources with low counts (like 避難收容所: ~40)
+            colorStops = [0, '#1e293b', 5, '#1e3a5f', 10, '#2563eb', 18, '#3b82f6', 25, '#22c55e', 32, '#34d399', 40, '#fbbf24', 50, '#f59e0b']
+          }
+
           map.addLayer({
             id: 'taipei-fill',
             type: 'fill',
@@ -711,10 +728,7 @@ export default {
                 'interpolate',
                 ['linear'],
                 ['get', 'resource_count'],
-                0, '#1e293b',
-                50, '#3b82f6',
-                150, '#34d399',
-                300, '#fbbf24'
+                ...colorStops
               ],
               'fill-opacity': 0.7
             }
@@ -795,6 +809,23 @@ export default {
             data: geoData
           })
 
+          // Calculate max value for better color distribution
+          const maxResourceCount = Math.max(...resourceData.map(r => r.Count || 0))
+          let colorStops
+          if (maxResourceCount > 200) {
+            // For resources with very high counts (like 臺北市 AED: ~300)
+            colorStops = [0, '#1e293b', 50, '#2563eb', 100, '#3b82f6', 150, '#22c55e', 200, '#34d399', 250, '#fbbf24', 330, '#f59e0b']
+          } else if (maxResourceCount > 100) {
+            // For resources with high counts (like 新北市 AED: ~200)
+            colorStops = [0, '#1e293b', 20, '#1e3a5f', 50, '#2563eb', 80, '#3b82f6', 110, '#22c55e', 140, '#34d399', 170, '#fbbf24', 200, '#f59e0b']
+          } else if (maxResourceCount > 50) {
+            // For resources with medium counts (50-100)
+            colorStops = [0, '#1e293b', 10, '#1e3a5f', 20, '#2563eb', 35, '#3b82f6', 50, '#22c55e', 65, '#34d399', 80, '#fbbf24', 100, '#f59e0b']
+          } else {
+            // For resources with low counts (like 避難收容所: ~40)
+            colorStops = [0, '#1e293b', 5, '#1e3a5f', 10, '#2563eb', 18, '#3b82f6', 25, '#22c55e', 32, '#34d399', 40, '#fbbf24', 50, '#f59e0b']
+          }
+
           map.addLayer({
             id: 'newtaipei-fill',
             type: 'fill',
@@ -804,10 +835,7 @@ export default {
                 'interpolate',
                 ['linear'],
                 ['get', 'resource_count'],
-                0, '#1e293b',
-                50, '#3b82f6',
-                150, '#34d399',
-                300, '#fbbf24'
+                ...colorStops
               ],
               'fill-opacity': 0.7
             }
