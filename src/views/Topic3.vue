@@ -803,7 +803,7 @@ export default {
       grid: { borderColor: '#334155', strokeDashArray: 3 }
     }
 
-    const topSpotsComparisonSeries = computed(() => {
+    const topSpotsData = computed(() => {
       const allSpots = [
         ...currentTaipeiData.value.map(s => ({ ...s, city: '台北市' })),
         ...currentNewtaipeiData.value.map(s => ({ ...s, city: '新北市' }))
@@ -811,38 +811,40 @@ export default {
         ...s,
         total: (s[getColumnName('AED')] || 0) + (s[getColumnName('避難收容所')] || 0) +
                (s[getColumnName('警消')] || 0) + (s[getColumnName('防空疏散地點')] || 0)
-      })).sort((a, b) => b.total - a.total).slice(0, 15)
+      }))
 
-      return [{
-        name: '總資源數',
-        data: allSpots.map(s => s.total)
-      }]
+      // Remove duplicates by using city + spot name as key
+      const uniqueSpots = new Map()
+      allSpots.forEach(spot => {
+        const key = `${spot.city}_${spot['旅遊景點']}`
+        if (!uniqueSpots.has(key)) {
+          uniqueSpots.set(key, spot)
+        }
+      })
+
+      return Array.from(uniqueSpots.values())
+        .sort((a, b) => b.total - a.total)
+        .slice(0, 15)
     })
 
-    const topSpotsComparisonOptions = computed(() => {
-      const allSpots = [
-        ...currentTaipeiData.value.map(s => ({ ...s, city: '台北市' })),
-        ...currentNewtaipeiData.value.map(s => ({ ...s, city: '新北市' }))
-      ].map(s => ({
-        ...s,
-        total: (s[getColumnName('AED')] || 0) + (s[getColumnName('避難收容所')] || 0) +
-               (s[getColumnName('警消')] || 0) + (s[getColumnName('防空疏散地點')] || 0)
-      })).sort((a, b) => b.total - a.total).slice(0, 15)
+    const topSpotsComparisonSeries = computed(() => [{
+      name: '總資源數',
+      data: topSpotsData.value.map(s => s.total)
+    }])
 
-      return {
-        chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
-        theme: { mode: 'dark' },
-        xaxis: {
-          categories: allSpots.map(s => `${s.city} ${s['旅遊景點']}`),
-          labels: { style: { colors: '#94a3b8' }, rotate: -45 }
-        },
-        yaxis: { labels: { style: { colors: '#94a3b8' } } },
-        colors: ['#fbbf24'],
-        dataLabels: { enabled: false },
-        plotOptions: { bar: { borderRadius: 4 } },
-        grid: { borderColor: '#334155', strokeDashArray: 3 }
-      }
-    })
+    const topSpotsComparisonOptions = computed(() => ({
+      chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
+      theme: { mode: 'dark' },
+      xaxis: {
+        categories: topSpotsData.value.map(s => `${s.city} ${s['旅遊景點']}`),
+        labels: { style: { colors: '#94a3b8' }, rotate: -45 }
+      },
+      yaxis: { labels: { style: { colors: '#94a3b8' } } },
+      colors: ['#fbbf24'],
+      dataLabels: { enabled: false },
+      plotOptions: { bar: { borderRadius: 4 } },
+      grid: { borderColor: '#334155', strokeDashArray: 3 }
+    }))
 
     const scatterComparisonSeries = computed(() => [
       {
