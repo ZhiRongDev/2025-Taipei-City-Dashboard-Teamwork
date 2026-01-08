@@ -705,14 +705,20 @@ export default {
           // Calculate max value for better color distribution
           const maxResourceCount = Math.max(...resourceData.map(r => r.Count || 0))
           let colorStops
-          if (maxResourceCount > 200) {
-            // For resources with very high counts (like 臺北市 AED: ~300)
+          if (maxResourceCount > 2000) {
+            // For resources with very high counts (like 防空疏散地點: ~3500)
+            colorStops = [0, '#1e293b', 500, '#1e3a5f', 1000, '#2563eb', 1500, '#3b82f6', 2000, '#22c55e', 2500, '#34d399', 3000, '#fbbf24', 3500, '#f59e0b']
+          } else if (maxResourceCount > 1000) {
+            // For resources with high counts (1000-2000)
+            colorStops = [0, '#1e293b', 200, '#1e3a5f', 400, '#2563eb', 600, '#3b82f6', 800, '#22c55e', 1000, '#34d399', 1200, '#fbbf24', 1400, '#f59e0b']
+          } else if (maxResourceCount > 200) {
+            // For resources with medium-high counts (like 臺北市 AED: ~300)
             colorStops = [0, '#1e293b', 50, '#2563eb', 100, '#3b82f6', 150, '#22c55e', 200, '#34d399', 250, '#fbbf24', 330, '#f59e0b']
           } else if (maxResourceCount > 100) {
-            // For resources with high counts (like 新北市 AED: ~200)
+            // For resources with medium counts (like 新北市 AED: ~200)
             colorStops = [0, '#1e293b', 20, '#1e3a5f', 50, '#2563eb', 80, '#3b82f6', 110, '#22c55e', 140, '#34d399', 170, '#fbbf24', 200, '#f59e0b']
           } else if (maxResourceCount > 50) {
-            // For resources with medium counts (50-100)
+            // For resources with low-medium counts (50-100)
             colorStops = [0, '#1e293b', 10, '#1e3a5f', 20, '#2563eb', 35, '#3b82f6', 50, '#22c55e', 65, '#34d399', 80, '#fbbf24', 100, '#f59e0b']
           } else {
             // For resources with low counts (like 避難收容所: ~40)
@@ -812,14 +818,20 @@ export default {
           // Calculate max value for better color distribution
           const maxResourceCount = Math.max(...resourceData.map(r => r.Count || 0))
           let colorStops
-          if (maxResourceCount > 200) {
-            // For resources with very high counts (like 臺北市 AED: ~300)
+          if (maxResourceCount > 2000) {
+            // For resources with very high counts (like 防空疏散地點: ~3500)
+            colorStops = [0, '#1e293b', 500, '#1e3a5f', 1000, '#2563eb', 1500, '#3b82f6', 2000, '#22c55e', 2500, '#34d399', 3000, '#fbbf24', 3500, '#f59e0b']
+          } else if (maxResourceCount > 1000) {
+            // For resources with high counts (1000-2000)
+            colorStops = [0, '#1e293b', 200, '#1e3a5f', 400, '#2563eb', 600, '#3b82f6', 800, '#22c55e', 1000, '#34d399', 1200, '#fbbf24', 1400, '#f59e0b']
+          } else if (maxResourceCount > 200) {
+            // For resources with medium-high counts (like 臺北市 AED: ~300)
             colorStops = [0, '#1e293b', 50, '#2563eb', 100, '#3b82f6', 150, '#22c55e', 200, '#34d399', 250, '#fbbf24', 330, '#f59e0b']
           } else if (maxResourceCount > 100) {
-            // For resources with high counts (like 新北市 AED: ~200)
+            // For resources with medium counts (like 新北市 AED: ~200)
             colorStops = [0, '#1e293b', 20, '#1e3a5f', 50, '#2563eb', 80, '#3b82f6', 110, '#22c55e', 140, '#34d399', 170, '#fbbf24', 200, '#f59e0b']
           } else if (maxResourceCount > 50) {
-            // For resources with medium counts (50-100)
+            // For resources with low-medium counts (50-100)
             colorStops = [0, '#1e293b', 10, '#1e3a5f', 20, '#2563eb', 35, '#3b82f6', 50, '#22c55e', 65, '#34d399', 80, '#fbbf24', 100, '#f59e0b']
           } else {
             // For resources with low counts (like 避難收容所: ~40)
