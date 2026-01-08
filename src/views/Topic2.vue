@@ -85,9 +85,9 @@
 
       <!-- Treemap -->
       <div class="card">
-        <h3>收容所面積分布矩形樹狀圖</h3>
+        <h3>各行政區人均收容空間分布圖</h3>
         <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
-          矩形大小代表收容所總面積，顏色深淺代表每人可分配面積（顏色越深表示每人可分配空間越大）
+          矩形大小與顏色深淺皆代表每人可分配收容所面積（越大、顏色越深表示每人可分配空間越充裕）
         </p>
         <apexchart
           type="treemap"
@@ -160,9 +160,9 @@
 
       <!-- Treemap -->
       <div class="card">
-        <h3>收容所面積分布矩形樹狀圖</h3>
+        <h3>各行政區人均收容空間分布圖</h3>
         <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
-          矩形大小代表收容所總面積，顏色深淺代表每人可分配面積（顏色越深表示每人可分配空間越大）
+          矩形大小與顏色深淺皆代表每人可分配收容所面積（越大、顏色越深表示每人可分配空間越充裕）
         </p>
         <apexchart
           type="treemap"
@@ -351,7 +351,7 @@ export default {
     const taipeiTreemapSeries = computed(() => [{
       data: taipeiData.value.map(row => ({
         x: row.Town,
-        y: row['收容所面積（平方公尺）'] || 0
+        y: row['每人可分配收容所面積（平方公尺）'] || 0
       }))
     }])
 
@@ -376,7 +376,7 @@ export default {
       dataLabels: {
         enabled: true,
         style: { fontSize: '12px', colors: ['#fff'] },
-        formatter: (text, op) => [text, op.value.toLocaleString() + ' m²']
+        formatter: (text, op) => [text, op.value.toFixed(3) + ' m²/人']
       }
     }
 
@@ -480,7 +480,7 @@ export default {
     const newtaipeiTreemapSeries = computed(() => [{
       data: newtaipeiData.value.map(row => ({
         x: row.Town,
-        y: row['收容所面積（平方公尺）'] || 0
+        y: row['每人可分配收容所面積（平方公尺）'] || 0
       }))
     }])
 
@@ -505,7 +505,7 @@ export default {
       dataLabels: {
         enabled: true,
         style: { fontSize: '12px', colors: ['#fff'] },
-        formatter: (text, op) => [text, op.value.toLocaleString() + ' m²']
+        formatter: (text, op) => [text, op.value.toFixed(3) + ' m²/人']
       }
     }
 
