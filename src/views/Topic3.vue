@@ -141,9 +141,15 @@
       <!-- Resource Overview -->
       <div class="card">
         <h3>各景點防災資源總覽</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #60a5fa;">數據分析：</strong>
+          新北市景點分布廣泛，從都會區到山區海岸皆有涵蓋。碧潭風景特定區、法鼓山世界佛教教育園區等
+          位於人口密集區的景點周邊資源豐富；而龍洞灣公園、翡翠灣濱海遊憩區等偏遠海岸景點
+          防災資源相對稀缺，建議加強行動應變設備配置與緊急疏散路線規劃。
+        </p>
         <apexchart
           type="bar"
-          height="500"
+          height="600"
           :options="newtaipeiResourceChartOptions"
           :series="newtaipeiResourceSeries"
         ></apexchart>
@@ -153,9 +159,15 @@
       <div class="grid grid-2">
         <div class="card">
           <h3>AED 分布</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #60a5fa;">數據分析：</strong>
+            法鼓山、碧潭風景區、新北市黃金博物園區等景點周邊 AED 配置密集（超過 90 台），
+            顯示都會區與熱門景點的醫療救援能力較佳。偏遠景點如龍洞灣、龍門露營區周邊 AED 數量為零或極少，
+            遊客發生緊急狀況時救援時效性較低，建議增設行動 AED 或加強救護車待命機制。
+          </p>
           <apexchart
             type="bar"
-            height="400"
+            height="500"
             :options="newtaipeiAEDChartOptions"
             :series="newtaipeiAEDSeries"
           ></apexchart>
@@ -163,9 +175,15 @@
 
         <div class="card">
           <h3>避難收容所分布</h3>
+          <p style="color: #94a3b8; margin-bottom: 12px; font-size: 0.95rem;">
+            <strong style="color: #34d399;">數據分析：</strong>
+            碧潭風景區、法鼓山、淡水漁人碼頭等景點周邊避難收容所數量充足（10-16 處），
+            能有效應對大規模災害事件。然而龍洞灣公園、龍門露營區等海岸景點避難收容所為零，
+            地理位置偏遠且疏散路線受限，建議規劃臨時避難據點與海上救援機制。
+          </p>
           <apexchart
             type="bar"
-            height="400"
+            height="500"
             :options="newtaipeiShelterChartOptions"
             :series="newtaipeiShelterSeries"
           ></apexchart>
@@ -175,6 +193,12 @@
       <!-- Radar Chart -->
       <div class="card">
         <h3>綜合防災資源雷達圖 (Top 10 景點)</h3>
+        <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
+          <strong style="color: #fbbf24;">數據分析：</strong>
+          雷達圖呈現新北市防災資源最豐富的前 10 個景點。碧潭、法鼓山、黃金博物園區等景點
+          在四類資源上皆有顯著配置，反映其作為熱門觀光地點的防災重要性。部分景點在特定資源類型上
+          表現突出但其他類型偏弱，顯示資源配置策略有優化空間。
+        </p>
         <apexchart
           type="radar"
           height="500"
@@ -187,11 +211,14 @@
       <div class="card">
         <h3>防災資源熱力分布</h3>
         <p style="color: #94a3b8; margin-bottom: 16px; font-size: 0.95rem;">
-          顏色越深表示該類型資源數量越多
+          <strong style="color: #f87171;">數據分析：</strong>
+          熱力圖清楚呈現新北市景點的資源配置落差。顏色越深表示資源數量越多。
+          可明顯看出都會區景點（碧潭、法鼓山）與偏遠海岸景點（龍洞、翡翠灣）的資源差距，
+          建議針對偏遠地區制定差異化的防災應變策略，如行動救援隊、直升機救援等機制。
         </p>
         <apexchart
           type="heatmap"
-          height="600"
+          height="700"
           :options="newtaipeiHeatmapOptions"
           :series="newtaipeiHeatmapSeries"
         ></apexchart>
@@ -510,7 +537,7 @@ export default {
 
     // New Taipei Charts (similar structure)
     const newtaipeiResourceSeries = computed(() => {
-      const data = currentNewtaipeiData.value.slice(0, 15)
+      const data = currentNewtaipeiData.value.slice(0, 20)
       return [
         {
           name: 'AED',
@@ -535,7 +562,7 @@ export default {
       chart: { type: 'bar', background: 'transparent', toolbar: { show: false }, stacked: true },
       theme: { mode: 'dark' },
       xaxis: {
-        categories: currentNewtaipeiData.value.slice(0, 15).map(row => row['旅遊景點'] || ''),
+        categories: currentNewtaipeiData.value.slice(0, 20).map(row => row['旅遊景點'] || ''),
         labels: { style: { colors: '#94a3b8' }, rotate: -45 }
       },
       yaxis: { labels: { style: { colors: '#94a3b8' } } },
@@ -547,14 +574,14 @@ export default {
 
     const newtaipeiAEDSeries = computed(() => [{
       name: 'AED',
-      data: currentNewtaipeiData.value.slice(0, 15).map(row => row[getColumnName('AED')] || 0)
+      data: currentNewtaipeiData.value.slice(0, 20).map(row => row[getColumnName('AED')] || 0)
     }])
 
     const newtaipeiAEDChartOptions = computed(() => ({
       chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
       theme: { mode: 'dark' },
       xaxis: {
-        categories: currentNewtaipeiData.value.slice(0, 15).map(row => row['旅遊景點'] || ''),
+        categories: currentNewtaipeiData.value.slice(0, 20).map(row => row['旅遊景點'] || ''),
         labels: { style: { colors: '#94a3b8' }, rotate: -45 }
       },
       yaxis: { labels: { style: { colors: '#94a3b8' } } },
@@ -566,14 +593,14 @@ export default {
 
     const newtaipeiShelterSeries = computed(() => [{
       name: '避難收容所',
-      data: currentNewtaipeiData.value.slice(0, 15).map(row => row[getColumnName('避難收容所')] || 0)
+      data: currentNewtaipeiData.value.slice(0, 20).map(row => row[getColumnName('避難收容所')] || 0)
     }])
 
     const newtaipeiShelterChartOptions = computed(() => ({
       chart: { type: 'bar', background: 'transparent', toolbar: { show: false } },
       theme: { mode: 'dark' },
       xaxis: {
-        categories: currentNewtaipeiData.value.slice(0, 15).map(row => row['旅遊景點'] || ''),
+        categories: currentNewtaipeiData.value.slice(0, 20).map(row => row['旅遊景點'] || ''),
         labels: { style: { colors: '#94a3b8' }, rotate: -45 }
       },
       yaxis: { labels: { style: { colors: '#94a3b8' } } },
@@ -610,7 +637,7 @@ export default {
     }
 
     const newtaipeiHeatmapSeries = computed(() => {
-      const data = currentNewtaipeiData.value.slice(0, 20)
+      const data = currentNewtaipeiData.value.slice(0, 25)
       return [
         {
           name: 'AED',
